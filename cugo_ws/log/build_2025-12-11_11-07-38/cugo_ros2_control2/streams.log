@@ -1,0 +1,49 @@
+[0.021s] Invoking command in '/home/aitec-jetson/cugo_ws/build/cugo_ros2_control2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aitec-jetson/cugo_ws/build/cugo_ros2_control2 -- -j8 -l8
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target cugo_lib[0m
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target serial_lib[0m
+[0.118s] [ 10%] Built target cugo_lib
+[0.120s] [ 21%] Built target gtest_main
+[0.122s] [ 31%] Built target gtest
+[0.137s] [ 42%] Built target serial_lib
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target test_cugo[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target test_serial[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target node_lib[0m
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[0.166s] [ 52%] Built target test_cugo
+[0.197s] [ 63%] Built target test_serial
+[0.205s] [ 73%] Built target node_lib
+[0.216s] [ 89%] Built target test_node
+[0.227s] [35m[1mConsolidate compiler generated dependencies of target cugo_ros2_control2[0m
+[0.280s] [100%] Built target cugo_ros2_control2
+[0.301s] Invoked command in '/home/aitec-jetson/cugo_ws/build/cugo_ros2_control2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aitec-jetson/cugo_ws/build/cugo_ros2_control2 -- -j8 -l8
+[0.320s] Invoking command in '/home/aitec-jetson/cugo_ws/build/cugo_ros2_control2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aitec-jetson/cugo_ws/build/cugo_ros2_control2
+[0.336s] -- Install configuration: ""
+[0.337s] -- Execute custom install script
+[0.337s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/lib/cugo_ros2_control2/cugo_ros2_control2
+[0.338s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/include//include/cugo_ros2_control2/cugo.hpp
+[0.338s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/include//include/cugo_ros2_control2/node.hpp
+[0.339s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/include//include/cugo_ros2_control2/serial.hpp
+[0.339s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2//launch/cugov3i_launch.py
+[0.339s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2//launch/cugov4_launch.py
+[0.339s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2//launch/unaju_launch.py
+[0.340s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2//urdf/my_cugo_robot.urdf.xacro
+[0.340s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2//urdf/parts/cugo_base.urdf.xacro
+[0.340s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2//urdf/parts/mid360.urdf.xacro
+[0.341s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/ament_index/resource_index/package_run_dependencies/cugo_ros2_control2
+[0.341s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/ament_index/resource_index/parent_prefix_path/cugo_ros2_control2
+[0.341s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/environment/ament_prefix_path.sh
+[0.342s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/environment/ament_prefix_path.dsv
+[0.342s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/environment/path.sh
+[0.342s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/environment/path.dsv
+[0.342s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/local_setup.bash
+[0.342s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/local_setup.sh
+[0.343s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/local_setup.zsh
+[0.343s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/local_setup.dsv
+[0.343s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/package.dsv
+[0.361s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/ament_index/resource_index/packages/cugo_ros2_control2
+[0.361s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/cmake/cugo_ros2_control2Config.cmake
+[0.361s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/cmake/cugo_ros2_control2Config-version.cmake
+[0.362s] -- Up-to-date symlink: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/package.xml
+[0.366s] Invoked command in '/home/aitec-jetson/cugo_ws/build/cugo_ros2_control2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aitec-jetson/cugo_ws/build/cugo_ros2_control2

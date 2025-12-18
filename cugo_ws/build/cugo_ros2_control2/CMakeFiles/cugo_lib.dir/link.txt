@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcugo_lib.a CMakeFiles/cugo_lib.dir/src/cugo.cpp.o
+/usr/bin/ranlib libcugo_lib.a

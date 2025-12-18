@@ -1,0 +1,1856 @@
+[0.000000] (-) TimerEvent: {}
+[0.001199] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict()}
+[0.001348] (livox_carto) JobQueued: {'identifier': 'livox_carto', 'dependencies': OrderedDict()}
+[0.001438] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[0.010790] (livox_carto) JobStarted: {'identifier': 'livox_carto'}
+[0.021939] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[0.022813] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '/home/aitec-jetson/slam_ws/src/fast_lio', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aitec-jetson/slam_ws/install/fast_lio'], 'cwd': '/home/aitec-jetson/slam_ws/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aitec-jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aitec-jetson/slam_ws/install/fast_lio/lib:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/aitec-jetson'), ('OLDPWD', '/home/aitec-jetson/slam_ws/src/fast_lio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9301'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aitec-jetson/slam_ws/install:/home/aitec-jetson/cugo_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aitec-jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aitec-jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2224,unix/ubuntu:/tmp/.ICE-unix/2224'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/43293ae5_b646_4a23_a896_b02f0fa4f91a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aitec-jetson/slam_ws/install/fast_lio:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2:/home/aitec-jetson/cugo_ws/install/cugo_ros2_control2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aitec-jetson/slam_ws/build/fast_lio'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aitec-jetson/slam_ws/install/fast_lio:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2:/home/aitec-jetson/cugo_ws/install/cugo_ros2_control2:/opt/ros/humble')]), 'shell': False}
+[0.099334] (-) TimerEvent: {}
+[0.127860] (fast_lio) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199521] (-) TimerEvent: {}
+[0.225222] (fast_lio) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.241584] (fast_lio) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299693] (-) TimerEvent: {}
+[0.370604] (fast_lio) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.380834] (fast_lio) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.381206] (fast_lio) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.381927] (fast_lio) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.386979] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399767] (-) TimerEvent: {}
+[0.500299] (-) TimerEvent: {}
+[0.520718] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.538408] (fast_lio) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.538952] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.539290] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.540523] (fast_lio) StderrLine: {'line': b'\x1b[0mCurrent CPU archtecture: aarch64\x1b[0m\n'}
+[0.600455] (-) TimerEvent: {}
+[0.701056] (-) TimerEvent: {}
+[0.801642] (-) TimerEvent: {}
+[0.902270] (-) TimerEvent: {}
+[1.002904] (-) TimerEvent: {}
+[1.103682] (-) TimerEvent: {}
+[1.172773] (livox_carto) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/aitec-jetson/slam_ws/build/livox_carto/build', '--no-deps', 'symlink_data'], 'cwd': '/home/aitec-jetson/slam_ws/build/livox_carto', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aitec-jetson', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aitec-jetson/slam_ws/install/fast_lio/lib:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:', 'HOME': '/home/aitec-jetson', 'OLDPWD': '/home/aitec-jetson/slam_ws/src/fast_lio', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '9301', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/aitec-jetson/slam_ws/install:/home/aitec-jetson/cugo_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'aitec-jetson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aitec-jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2224,unix/ubuntu:/tmp/.ICE-unix/2224', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/43293ae5_b646_4a23_a896_b02f0fa4f91a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.121', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/aitec-jetson/slam_ws/install/fast_lio:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2:/home/aitec-jetson/cugo_ws/install/cugo_ros2_control2:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aitec-jetson/slam_ws/build/livox_carto', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aitec-jetson/slam_ws/build/livox_carto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aitec-jetson/slam_ws/install/livox_carto/lib/python3.10/site-packages:/home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/aitec-jetson/slam_ws/install/fast_lio:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2:/home/aitec-jetson/cugo_ws/install/cugo_ros2_control2'}, 'shell': False}
+[1.192588] (fast_lio) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found version "3.10.12") \n'}
+[1.195507] (fast_lio) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.203760] (-) TimerEvent: {}
+[1.304255] (-) TimerEvent: {}
+[1.405049] (-) TimerEvent: {}
+[1.476944] (fast_lio) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.505147] (-) TimerEvent: {}
+[1.592146] (fast_lio) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.605285] (-) TimerEvent: {}
+[1.634173] (livox_carto) StdoutLine: {'line': b'running develop\n'}
+[1.653709] (fast_lio) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.705438] (-) TimerEvent: {}
+[1.715326] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.721906] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.733429] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.750239] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.772191] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.805601] (-) TimerEvent: {}
+[1.831938] (fast_lio) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.835547] (fast_lio) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.900281] (livox_carto) StdoutLine: {'line': b'running egg_info\n'}
+[1.900691] (livox_carto) StdoutLine: {'line': b'creating livox_carto.egg-info\n'}
+[1.900862] (livox_carto) StdoutLine: {'line': b'writing livox_carto.egg-info/PKG-INFO\n'}
+[1.901046] (livox_carto) StdoutLine: {'line': b'writing dependency_links to livox_carto.egg-info/dependency_links.txt\n'}
+[1.901280] (livox_carto) StdoutLine: {'line': b'writing requirements to livox_carto.egg-info/requires.txt\n'}
+[1.901487] (livox_carto) StdoutLine: {'line': b'writing top-level names to livox_carto.egg-info/top_level.txt\n'}
+[1.902076] (livox_carto) StdoutLine: {'line': b"writing manifest file 'livox_carto.egg-info/SOURCES.txt'\n"}
+[1.903156] (livox_carto) StdoutLine: {'line': b"reading manifest file 'livox_carto.egg-info/SOURCES.txt'\n"}
+[1.904153] (livox_carto) StdoutLine: {'line': b"writing manifest file 'livox_carto.egg-info/SOURCES.txt'\n"}
+[1.905643] (-) TimerEvent: {}
+[1.906639] (livox_carto) StdoutLine: {'line': b'running build_ext\n'}
+[1.908034] (livox_carto) StdoutLine: {'line': b'Creating /home/aitec-jetson/slam_ws/install/livox_carto/lib/python3.10/site-packages/livox-carto.egg-link (link to .)\n'}
+[1.909450] (livox_carto) StdoutLine: {'line': b'\n'}
+[1.909733] (livox_carto) StdoutLine: {'line': b'Installed /home/aitec-jetson/slam_ws/build/livox_carto\n'}
+[1.909920] (livox_carto) StdoutLine: {'line': b'running symlink_data\n'}
+[1.910072] (livox_carto) StdoutLine: {'line': b'creating /home/aitec-jetson/slam_ws/install/livox_carto/share/ament_index\n'}
+[1.910217] (livox_carto) StdoutLine: {'line': b'creating /home/aitec-jetson/slam_ws/install/livox_carto/share/ament_index/resource_index\n'}
+[1.910355] (livox_carto) StdoutLine: {'line': b'creating /home/aitec-jetson/slam_ws/install/livox_carto/share/ament_index/resource_index/packages\n'}
+[1.910540] (livox_carto) StdoutLine: {'line': b'symbolically linking /home/aitec-jetson/slam_ws/build/livox_carto/resource/livox_carto -> /home/aitec-jetson/slam_ws/install/livox_carto/share/ament_index/resource_index/packages\n'}
+[1.910643] (livox_carto) StdoutLine: {'line': b'symbolically linking /home/aitec-jetson/slam_ws/build/livox_carto/package.xml -> /home/aitec-jetson/slam_ws/install/livox_carto/share/livox_carto\n'}
+[1.910739] (livox_carto) StdoutLine: {'line': b'creating /home/aitec-jetson/slam_ws/install/livox_carto/share/livox_carto/launch\n'}
+[1.910829] (livox_carto) StdoutLine: {'line': b'symbolically linking /home/aitec-jetson/slam_ws/build/livox_carto/launch/carto_all_in_one.launch.py -> /home/aitec-jetson/slam_ws/install/livox_carto/share/livox_carto/launch\n'}
+[1.910956] (livox_carto) StdoutLine: {'line': b'creating /home/aitec-jetson/slam_ws/install/livox_carto/share/livox_carto/config\n'}
+[1.911045] (livox_carto) StdoutLine: {'line': b'symbolically linking /home/aitec-jetson/slam_ws/build/livox_carto/config/carto.lua -> /home/aitec-jetson/slam_ws/install/livox_carto/share/livox_carto/config\n'}
+[1.966581] (fast_lio) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.999011] (livox_carto) CommandEnded: {'returncode': 0}
+[2.006120] (-) TimerEvent: {}
+[2.015236] (fast_lio) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.043086] (livox_carto) JobEnded: {'identifier': 'livox_carto', 'rc': 0}
+[2.080207] (fast_lio) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.091870] (fast_lio) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.106251] (-) TimerEvent: {}
+[2.206802] (-) TimerEvent: {}
+[2.231155] (fast_lio) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.231853] (fast_lio) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.306985] (-) TimerEvent: {}
+[2.371250] (fast_lio) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.374730] (fast_lio) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.407133] (-) TimerEvent: {}
+[2.485259] (fast_lio) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.507230] (-) TimerEvent: {}
+[2.523341] (fast_lio) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.542033] (fast_lio) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.566168] (fast_lio) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.590557] (fast_lio) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.604438] (fast_lio) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.607329] (-) TimerEvent: {}
+[2.632378] (fast_lio) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[2.691529] (fast_lio) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.707513] (-) TimerEvent: {}
+[2.711445] (fast_lio) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[2.778554] (fast_lio) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.779143] (fast_lio) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.807715] (-) TimerEvent: {}
+[2.838577] (fast_lio) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[2.861637] (fast_lio) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.907872] (-) TimerEvent: {}
+[2.947800] (fast_lio) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  \n'}
+[2.948405] (fast_lio) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[3.008036] (-) TimerEvent: {}
+[3.108670] (-) TimerEvent: {}
+[3.209381] (-) TimerEvent: {}
+[3.310066] (-) TimerEvent: {}
+[3.410742] (-) TimerEvent: {}
+[3.511403] (-) TimerEvent: {}
+[3.612101] (-) TimerEvent: {}
+[3.712704] (-) TimerEvent: {}
+[3.813369] (-) TimerEvent: {}
+[3.914040] (-) TimerEvent: {}
+[4.014756] (-) TimerEvent: {}
+[4.115548] (-) TimerEvent: {}
+[4.216230] (-) TimerEvent: {}
+[4.316889] (-) TimerEvent: {}
+[4.417782] (-) TimerEvent: {}
+[4.518459] (-) TimerEvent: {}
+[4.619230] (-) TimerEvent: {}
+[4.720009] (-) TimerEvent: {}
+[4.820627] (-) TimerEvent: {}
+[4.866475] (fast_lio) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[4.895877] (fast_lio) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[4.920802] (-) TimerEvent: {}
+[4.975130] (fast_lio) StdoutLine: {'line': b'-- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  \n'}
+[4.976427] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.020968] (-) TimerEvent: {}
+[5.107864] (fast_lio) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.121050] (-) TimerEvent: {}
+[5.221665] (-) TimerEvent: {}
+[5.322336] (-) TimerEvent: {}
+[5.353945] (fast_lio) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.363067] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.375332] (fast_lio) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.422461] (-) TimerEvent: {}
+[5.523063] (-) TimerEvent: {}
+[5.594658] (fast_lio) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[5.623369] (-) TimerEvent: {}
+[5.724256] (-) TimerEvent: {}
+[5.815644] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.824345] (-) TimerEvent: {}
+[5.924967] (-) TimerEvent: {}
+[6.025792] (-) TimerEvent: {}
+[6.026982] (fast_lio) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  \n'}
+[6.028235] (fast_lio) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  \n'}
+[6.029449] (fast_lio) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  \n'}
+[6.030754] (fast_lio) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  \n'}
+[6.031907] (fast_lio) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[6.033012] (fast_lio) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  \n'}
+[6.033567] (fast_lio) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[6.034088] (fast_lio) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[6.035270] (fast_lio) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  \n'}
+[6.036566] (fast_lio) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  \n'}
+[6.037904] (fast_lio) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  \n'}
+[6.039065] (fast_lio) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  \n'}
+[6.040379] (fast_lio) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  \n'}
+[6.041702] (fast_lio) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  \n'}
+[6.042969] (fast_lio) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  \n'}
+[6.044265] (fast_lio) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  \n'}
+[6.045555] (fast_lio) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  \n'}
+[6.046796] (fast_lio) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  \n'}
+[6.048167] (fast_lio) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  \n'}
+[6.049360] (fast_lio) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  \n'}
+[6.050491] (fast_lio) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[6.050977] (fast_lio) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[6.051506] (fast_lio) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[6.052707] (fast_lio) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  \n'}
+[6.054039] (fast_lio) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  \n'}
+[6.090748] (fast_lio) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.092601] (fast_lio) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[6.093066] (fast_lio) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.125880] (-) TimerEvent: {}
+[6.189670] (fast_lio) StdoutLine: {'line': b'-- Found livox_ros_driver2: 1.0.0 (/home/aitec-jetson/cugo_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)\n'}
+[6.218755] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.226005] (-) TimerEvent: {}
+[6.232580] (fast_lio) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):\n'}
+[6.232865] (fast_lio) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[6.233029] (fast_lio) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[6.233171] (fast_lio) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.233304] (fast_lio) StderrLine: {'line': b'\n'}
+[6.233457] (fast_lio) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[6.233585] (fast_lio) StderrLine: {'line': b'\n'}
+[6.233708] (fast_lio) StderrLine: {'line': b'    /usr\n'}
+[6.233828] (fast_lio) StderrLine: {'line': b'\n'}
+[6.233947] (fast_lio) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[6.234067] (fast_lio) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.234189] (fast_lio) StderrLine: {'line': b'\x1b[0m\n'}
+[6.243736] (fast_lio) StderrLine: {'line': b'\x1b[0mEigen:/usr/include/eigen3\x1b[0m\n'}
+[6.244036] (fast_lio) StdoutLine: {'line': b'-- PCL: /usr/include/pcl-1.12\n'}
+[6.326185] (-) TimerEvent: {}
+[6.426853] (-) TimerEvent: {}
+[6.527414] (-) TimerEvent: {}
+[6.628015] (-) TimerEvent: {}
+[6.728786] (-) TimerEvent: {}
+[6.732686] (fast_lio) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.828978] (-) TimerEvent: {}
+[6.929790] (-) TimerEvent: {}
+[7.030492] (-) TimerEvent: {}
+[7.131120] (-) TimerEvent: {}
+[7.231904] (-) TimerEvent: {}
+[7.332680] (-) TimerEvent: {}
+[7.374781] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.432859] (-) TimerEvent: {}
+[7.533640] (-) TimerEvent: {}
+[7.624084] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.633743] (-) TimerEvent: {}
+[7.676943] (fast_lio) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.708154] (fast_lio) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.733958] (-) TimerEvent: {}
+[7.738113] (fast_lio) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[7.738715] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.739039] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.739293] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[7.783576] (fast_lio) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.834102] (-) TimerEvent: {}
+[7.922061] (fast_lio) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.934246] (-) TimerEvent: {}
+[8.034809] (-) TimerEvent: {}
+[8.038270] (fast_lio) StdoutLine: {'line': b'-- Generating done\n'}
+[8.071748] (fast_lio) StdoutLine: {'line': b'-- Build files have been written to: /home/aitec-jetson/slam_ws/build/fast_lio\n'}
+[8.123376] (fast_lio) CommandEnded: {'returncode': 0}
+[8.125660] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'build'}
+[8.128658] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aitec-jetson/slam_ws/build/fast_lio', '--', '-j8', '-l8'], 'cwd': '/home/aitec-jetson/slam_ws/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aitec-jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aitec-jetson/slam_ws/install/fast_lio/lib:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/aitec-jetson'), ('OLDPWD', '/home/aitec-jetson/slam_ws/src/fast_lio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9301'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aitec-jetson/slam_ws/install:/home/aitec-jetson/cugo_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aitec-jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aitec-jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2224,unix/ubuntu:/tmp/.ICE-unix/2224'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/43293ae5_b646_4a23_a896_b02f0fa4f91a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aitec-jetson/slam_ws/install/fast_lio:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2:/home/aitec-jetson/cugo_ws/install/cugo_ros2_control2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aitec-jetson/slam_ws/build/fast_lio'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aitec-jetson/slam_ws/install/fast_lio:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2:/home/aitec-jetson/cugo_ws/install/cugo_ros2_control2:/opt/ros/humble')]), 'shell': False}
+[8.134872] (-) TimerEvent: {}
+[8.224399] (fast_lio) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.235081] (-) TimerEvent: {}
+[8.238910] (fast_lio) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.255781] (fast_lio) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_fast_lio\n'}
+[8.335225] (-) TimerEvent: {}
+[8.435841] (-) TimerEvent: {}
+[8.536405] (-) TimerEvent: {}
+[8.637076] (-) TimerEvent: {}
+[8.696435] (fast_lio) StdoutLine: {'line': b'running egg_info\n'}
+[8.697401] (fast_lio) StdoutLine: {'line': b'creating fast_lio.egg-info\n'}
+[8.697635] (fast_lio) StdoutLine: {'line': b'writing fast_lio.egg-info/PKG-INFO\n'}
+[8.697982] (fast_lio) StdoutLine: {'line': b'writing dependency_links to fast_lio.egg-info/dependency_links.txt\n'}
+[8.698277] (fast_lio) StdoutLine: {'line': b'writing top-level names to fast_lio.egg-info/top_level.txt\n'}
+[8.698696] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[8.702258] (fast_lio) StdoutLine: {'line': b"reading manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[8.703048] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[8.737262] (-) TimerEvent: {}
+[8.780002] (fast_lio) StdoutLine: {'line': b'[  5%] Built target fast_lio__cpp\n'}
+[8.780459] (fast_lio) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_fast_lio_egg\n'}
+[8.782934] (fast_lio) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o\x1b[0m\n'}
+[8.798370] (fast_lio) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.798831] (fast_lio) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.798976] (fast_lio) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.837436] (-) TimerEvent: {}
+[8.938062] (-) TimerEvent: {}
+[8.991994] (fast_lio) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libfast_lio__rosidl_generator_c.so\x1b[0m\n'}
+[9.038213] (-) TimerEvent: {}
+[9.047688] (fast_lio) StdoutLine: {'line': b'[ 20%] Built target fast_lio__rosidl_generator_c\n'}
+[9.064812] (fast_lio) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.065245] (fast_lio) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.065440] (fast_lio) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.138365] (-) TimerEvent: {}
+[9.239073] (-) TimerEvent: {}
+[9.297159] (fast_lio) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o\x1b[0m\n'}
+[9.335111] (fast_lio) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o\x1b[0m\n'}
+[9.339198] (-) TimerEvent: {}
+[9.347910] (fast_lio) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o\x1b[0m\n'}
+[9.439380] (-) TimerEvent: {}
+[9.540246] (-) TimerEvent: {}
+[9.571858] (fast_lio) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o\x1b[0m\n'}
+[9.624994] (fast_lio) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o\x1b[0m\n'}
+[9.640488] (-) TimerEvent: {}
+[9.656518] (fast_lio) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.685773] (fast_lio) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o\x1b[0m\n'}
+[9.737386] (fast_lio) StdoutLine: {'line': b'[ 48%] Built target fast_lio__rosidl_typesupport_c\n'}
+[9.740737] (-) TimerEvent: {}
+[9.750741] (fast_lio) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.813547] (fast_lio) StdoutLine: {'line': b'[ 51%] Built target fast_lio__rosidl_typesupport_introspection_c\n'}
+[9.830423] (fast_lio) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.840851] (-) TimerEvent: {}
+[9.908515] (fast_lio) StdoutLine: {'line': b'[ 54%] Built target fast_lio__rosidl_typesupport_cpp\n'}
+[9.941046] (-) TimerEvent: {}
+[9.949796] (fast_lio) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o\x1b[0m\n'}
+[9.950277] (fast_lio) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o\x1b[0m\n'}
+[9.950446] (fast_lio) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o\x1b[0m\n'}
+[10.041214] (-) TimerEvent: {}
+[10.141902] (-) TimerEvent: {}
+[10.146124] (fast_lio) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.146561] (fast_lio) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.228450] (fast_lio) StdoutLine: {'line': b'[ 68%] Built target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[10.242072] (-) TimerEvent: {}
+[10.292530] (fast_lio) StdoutLine: {'line': b'[ 68%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[10.342235] (-) TimerEvent: {}
+[10.350937] (fast_lio) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.442413] (-) TimerEvent: {}
+[10.493320] (fast_lio) StdoutLine: {'line': b'[ 71%] Built target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[10.528191] (fast_lio) StdoutLine: {'line': b'[ 71%] Built target fast_lio\n'}
+[10.542585] (-) TimerEvent: {}
+[10.565881] (fast_lio) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.642728] (-) TimerEvent: {}
+[10.743336] (-) TimerEvent: {}
+[10.843940] (-) TimerEvent: {}
+[10.944513] (-) TimerEvent: {}
+[11.045110] (-) TimerEvent: {}
+[11.145727] (-) TimerEvent: {}
+[11.246328] (-) TimerEvent: {}
+[11.346971] (-) TimerEvent: {}
+[11.394651] (fast_lio) StdoutLine: {'line': b'[ 74%] Built target fast_lio__py\n'}
+[11.429281] (fast_lio) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o\x1b[0m\n'}
+[11.447143] (-) TimerEvent: {}
+[11.547854] (-) TimerEvent: {}
+[11.648546] (-) TimerEvent: {}
+[11.695498] (fast_lio) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so\x1b[0m\n'}
+[11.748682] (-) TimerEvent: {}
+[11.763092] (fast_lio) StdoutLine: {'line': b'[ 80%] Built target fast_lio__rosidl_generator_py\n'}
+[11.800700] (fast_lio) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.802818] (fast_lio) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.803205] (fast_lio) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.848864] (-) TimerEvent: {}
+[11.949567] (-) TimerEvent: {}
+[12.018901] (fast_lio) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.036566] (fast_lio) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.049749] (-) TimerEvent: {}
+[12.050635] (fast_lio) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.094402] (fast_lio) StdoutLine: {'line': b'[ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext\n'}
+[12.100779] (fast_lio) StdoutLine: {'line': b'[ 97%] Built target fast_lio__rosidl_typesupport_c__pyext\n'}
+[12.122449] (fast_lio) StdoutLine: {'line': b'[ 97%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.149894] (-) TimerEvent: {}
+[12.250521] (-) TimerEvent: {}
+[12.351152] (-) TimerEvent: {}
+[12.451777] (-) TimerEvent: {}
+[12.552403] (-) TimerEvent: {}
+[12.653026] (-) TimerEvent: {}
+[12.753698] (-) TimerEvent: {}
+[12.877627] (-) TimerEvent: {}
+[12.978262] (-) TimerEvent: {}
+[13.078932] (-) TimerEvent: {}
+[13.179560] (-) TimerEvent: {}
+[13.280207] (-) TimerEvent: {}
+[13.380827] (-) TimerEvent: {}
+[13.481481] (-) TimerEvent: {}
+[13.582120] (-) TimerEvent: {}
+[13.682775] (-) TimerEvent: {}
+[13.783434] (-) TimerEvent: {}
+[13.884091] (-) TimerEvent: {}
+[13.984756] (-) TimerEvent: {}
+[14.085436] (-) TimerEvent: {}
+[14.186085] (-) TimerEvent: {}
+[14.286745] (-) TimerEvent: {}
+[14.387403] (-) TimerEvent: {}
+[14.488066] (-) TimerEvent: {}
+[14.588740] (-) TimerEvent: {}
+[14.689414] (-) TimerEvent: {}
+[14.790075] (-) TimerEvent: {}
+[14.890744] (-) TimerEvent: {}
+[14.991387] (-) TimerEvent: {}
+[15.092057] (-) TimerEvent: {}
+[15.192704] (-) TimerEvent: {}
+[15.293376] (-) TimerEvent: {}
+[15.394024] (-) TimerEvent: {}
+[15.494691] (-) TimerEvent: {}
+[15.595343] (-) TimerEvent: {}
+[15.695996] (-) TimerEvent: {}
+[15.796649] (-) TimerEvent: {}
+[15.897375] (-) TimerEvent: {}
+[15.998050] (-) TimerEvent: {}
+[16.098716] (-) TimerEvent: {}
+[16.199367] (-) TimerEvent: {}
+[16.300043] (-) TimerEvent: {}
+[16.400691] (-) TimerEvent: {}
+[16.501383] (-) TimerEvent: {}
+[16.602055] (-) TimerEvent: {}
+[16.702713] (-) TimerEvent: {}
+[16.803387] (-) TimerEvent: {}
+[16.904002] (-) TimerEvent: {}
+[17.004655] (-) TimerEvent: {}
+[17.105390] (-) TimerEvent: {}
+[17.206094] (-) TimerEvent: {}
+[17.306851] (-) TimerEvent: {}
+[17.407547] (-) TimerEvent: {}
+[17.508190] (-) TimerEvent: {}
+[17.608986] (-) TimerEvent: {}
+[17.709661] (-) TimerEvent: {}
+[17.810313] (-) TimerEvent: {}
+[17.911237] (-) TimerEvent: {}
+[18.012025] (-) TimerEvent: {}
+[18.112791] (-) TimerEvent: {}
+[18.213544] (-) TimerEvent: {}
+[18.314226] (-) TimerEvent: {}
+[18.414960] (-) TimerEvent: {}
+[18.515672] (-) TimerEvent: {}
+[18.616308] (-) TimerEvent: {}
+[18.717038] (-) TimerEvent: {}
+[18.817837] (-) TimerEvent: {}
+[18.918527] (-) TimerEvent: {}
+[19.019234] (-) TimerEvent: {}
+[19.119942] (-) TimerEvent: {}
+[19.220624] (-) TimerEvent: {}
+[19.321323] (-) TimerEvent: {}
+[19.422065] (-) TimerEvent: {}
+[19.522709] (-) TimerEvent: {}
+[19.623458] (-) TimerEvent: {}
+[19.724184] (-) TimerEvent: {}
+[19.824865] (-) TimerEvent: {}
+[19.925555] (-) TimerEvent: {}
+[20.026243] (-) TimerEvent: {}
+[20.127007] (-) TimerEvent: {}
+[20.227817] (-) TimerEvent: {}
+[20.328507] (-) TimerEvent: {}
+[20.429212] (-) TimerEvent: {}
+[20.529952] (-) TimerEvent: {}
+[20.630666] (-) TimerEvent: {}
+[20.731409] (-) TimerEvent: {}
+[20.832067] (-) TimerEvent: {}
+[20.932702] (-) TimerEvent: {}
+[21.033373] (-) TimerEvent: {}
+[21.134025] (-) TimerEvent: {}
+[21.234694] (-) TimerEvent: {}
+[21.335366] (-) TimerEvent: {}
+[21.436040] (-) TimerEvent: {}
+[21.536707] (-) TimerEvent: {}
+[21.637388] (-) TimerEvent: {}
+[21.738046] (-) TimerEvent: {}
+[21.838709] (-) TimerEvent: {}
+[21.939368] (-) TimerEvent: {}
+[22.005515] (fast_lio) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[22.005981] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[22.006108] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[22.006210] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[22.006301] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[22.006390] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[22.006477] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[22.006566] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/microsec_time_clock.hpp:18\x1b[m\x1b[K,\n'}
+[22.006652] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31\x1b[m\x1b[K,\n'}
+[22.006736] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36\x1b[m\x1b[K,\n'}
+[22.006821] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/sync/file_lock.hpp:26\x1b[m\x1b[K,\n'}
+[22.006905] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46\x1b[m\x1b[K,\n'}
+[22.006989] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73\x1b[m\x1b[K,\n'}
+[22.007074] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aitec-jetson/slam_ws/src/fast_lio/src/IMU_Processing.hpp:18\x1b[m\x1b[K,\n'}
+[22.007160] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aitec-jetson/slam_ws/src/fast_lio/src/laserMapping.cpp:47\x1b[m\x1b[K:\n'}
+[22.007245] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.007383] (fast_lio) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[22.007488] (fast_lio) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.039535] (-) TimerEvent: {}
+[22.140164] (-) TimerEvent: {}
+[22.240807] (-) TimerEvent: {}
+[22.341484] (-) TimerEvent: {}
+[22.442153] (-) TimerEvent: {}
+[22.542808] (-) TimerEvent: {}
+[22.643489] (-) TimerEvent: {}
+[22.744151] (-) TimerEvent: {}
+[22.844825] (-) TimerEvent: {}
+[22.945528] (-) TimerEvent: {}
+[23.046190] (-) TimerEvent: {}
+[23.146854] (-) TimerEvent: {}
+[23.247526] (-) TimerEvent: {}
+[23.348180] (-) TimerEvent: {}
+[23.448841] (-) TimerEvent: {}
+[23.549496] (-) TimerEvent: {}
+[23.650153] (-) TimerEvent: {}
+[23.750820] (-) TimerEvent: {}
+[23.851478] (-) TimerEvent: {}
+[23.952139] (-) TimerEvent: {}
+[24.052787] (-) TimerEvent: {}
+[24.153694] (-) TimerEvent: {}
+[24.254611] (-) TimerEvent: {}
+[24.355501] (-) TimerEvent: {}
+[24.456179] (-) TimerEvent: {}
+[24.556843] (-) TimerEvent: {}
+[24.657758] (-) TimerEvent: {}
+[24.758429] (-) TimerEvent: {}
+[24.859097] (-) TimerEvent: {}
+[24.959761] (-) TimerEvent: {}
+[25.060440] (-) TimerEvent: {}
+[25.161095] (-) TimerEvent: {}
+[25.261755] (-) TimerEvent: {}
+[25.362417] (-) TimerEvent: {}
+[25.463256] (-) TimerEvent: {}
+[25.564087] (-) TimerEvent: {}
+[25.664944] (-) TimerEvent: {}
+[25.765788] (-) TimerEvent: {}
+[25.866616] (-) TimerEvent: {}
+[25.967410] (-) TimerEvent: {}
+[26.068203] (-) TimerEvent: {}
+[26.168956] (-) TimerEvent: {}
+[26.269814] (-) TimerEvent: {}
+[26.370636] (-) TimerEvent: {}
+[26.471466] (-) TimerEvent: {}
+[26.572265] (-) TimerEvent: {}
+[26.673065] (-) TimerEvent: {}
+[26.773917] (-) TimerEvent: {}
+[26.874738] (-) TimerEvent: {}
+[26.975605] (-) TimerEvent: {}
+[27.076413] (-) TimerEvent: {}
+[27.177180] (-) TimerEvent: {}
+[27.277876] (-) TimerEvent: {}
+[27.378682] (-) TimerEvent: {}
+[27.479451] (-) TimerEvent: {}
+[27.580105] (-) TimerEvent: {}
+[27.680902] (-) TimerEvent: {}
+[27.781749] (-) TimerEvent: {}
+[27.882562] (-) TimerEvent: {}
+[27.983442] (-) TimerEvent: {}
+[28.084220] (-) TimerEvent: {}
+[28.184870] (-) TimerEvent: {}
+[28.285678] (-) TimerEvent: {}
+[28.386533] (-) TimerEvent: {}
+[28.487296] (-) TimerEvent: {}
+[28.588164] (-) TimerEvent: {}
+[28.688842] (-) TimerEvent: {}
+[28.789693] (-) TimerEvent: {}
+[28.890383] (-) TimerEvent: {}
+[28.991051] (-) TimerEvent: {}
+[29.091834] (-) TimerEvent: {}
+[29.192577] (-) TimerEvent: {}
+[29.293214] (-) TimerEvent: {}
+[29.394022] (-) TimerEvent: {}
+[29.494797] (-) TimerEvent: {}
+[29.595562] (-) TimerEvent: {}
+[29.696351] (-) TimerEvent: {}
+[29.797103] (-) TimerEvent: {}
+[29.897762] (-) TimerEvent: {}
+[29.998537] (-) TimerEvent: {}
+[30.099313] (-) TimerEvent: {}
+[30.199971] (-) TimerEvent: {}
+[30.300773] (-) TimerEvent: {}
+[30.401641] (-) TimerEvent: {}
+[30.502478] (-) TimerEvent: {}
+[30.603280] (-) TimerEvent: {}
+[30.704158] (-) TimerEvent: {}
+[30.805001] (-) TimerEvent: {}
+[30.905847] (-) TimerEvent: {}
+[31.006653] (-) TimerEvent: {}
+[31.107481] (-) TimerEvent: {}
+[31.208332] (-) TimerEvent: {}
+[31.309162] (-) TimerEvent: {}
+[31.410010] (-) TimerEvent: {}
+[31.510823] (-) TimerEvent: {}
+[31.611644] (-) TimerEvent: {}
+[31.712508] (-) TimerEvent: {}
+[31.813368] (-) TimerEvent: {}
+[31.914187] (-) TimerEvent: {}
+[32.014860] (-) TimerEvent: {}
+[32.115685] (-) TimerEvent: {}
+[32.216429] (-) TimerEvent: {}
+[32.317096] (-) TimerEvent: {}
+[32.417919] (-) TimerEvent: {}
+[32.518691] (-) TimerEvent: {}
+[32.619364] (-) TimerEvent: {}
+[32.720168] (-) TimerEvent: {}
+[32.820951] (-) TimerEvent: {}
+[32.921642] (-) TimerEvent: {}
+[33.022456] (-) TimerEvent: {}
+[33.123213] (-) TimerEvent: {}
+[33.224104] (-) TimerEvent: {}
+[33.324913] (-) TimerEvent: {}
+[33.376913] (fast_lio) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aitec-jetson/slam_ws/src/fast_lio/include/IKFoM_toolkit/esekfom/../mtk/types/SOn.hpp:83\x1b[m\x1b[K,\n'}
+[33.377379] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aitec-jetson/slam_ws/src/fast_lio/include/IKFoM_toolkit/esekfom/esekfom.hpp:49\x1b[m\x1b[K,\n'}
+[33.377513] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aitec-jetson/slam_ws/src/fast_lio/include/use-ikfom.hpp:4\x1b[m\x1b[K,\n'}
+[33.377662] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aitec-jetson/slam_ws/src/fast_lio/src/IMU_Processing.hpp:22\x1b[m\x1b[K,\n'}
+[33.377765] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aitec-jetson/slam_ws/src/fast_lio/src/laserMapping.cpp:47\x1b[m\x1b[K:\n'}
+[33.377860] (fast_lio) StderrLine: {'line': b'/home/aitec-jetson/slam_ws/src/fast_lio/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<_FIter, _FIter> MTK::cos_sinc_sqrt(const scalar&) [with scalar = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[33.377958] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aitec-jetson/slam_ws/src/fast_lio/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:252:52:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kscalar MTK::exp(MTK::vectview<scalar, dim>, MTK::vectview<const scalar, dim>, const scalar&) [with scalar = double; int n = 3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[33.378056] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aitec-jetson/slam_ws/src/fast_lio/include/IKFoM_toolkit/esekfom/../mtk/types/S2.hpp:140:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid MTK::S2<_scalar, den, num, S2_typ>::boxplus(MTK::vectview<const _scalar, 2>, MTK::S2<_scalar, den, num, S2_typ>::scalar) [with _scalar = double; int den = 98090; int num = 10000; int S2_typ = 1; MTK::S2<_scalar, den, num, S2_typ>::scalar = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[33.378153] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aitec-jetson/slam_ws/src/fast_lio/include/use-ikfom.hpp:12:1:\x1b[m\x1b[K   required from here\n'}
+[33.378241] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aitec-jetson/slam_ws/src/fast_lio/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:143:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<double, double>\x1b[m\x1b[K\xe2\x80\x99 when C++17 is enabled changed to match C++14 \x1b]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_base\x07in GCC 10.1\x1b]8;;\x07\n'}
+[33.378357] (fast_lio) StderrLine: {'line': b'  143 | std::pair<scalar, scalar> \x1b[01;36m\x1b[Kcos_sinc_sqrt\x1b[m\x1b[K(const scalar &x2){\n'}
+[33.378447] (fast_lio) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.425044] (-) TimerEvent: {}
+[33.525754] (-) TimerEvent: {}
+[33.626545] (-) TimerEvent: {}
+[33.727314] (-) TimerEvent: {}
+[33.828108] (-) TimerEvent: {}
+[33.928950] (-) TimerEvent: {}
+[34.029616] (-) TimerEvent: {}
+[34.130416] (-) TimerEvent: {}
+[34.231194] (-) TimerEvent: {}
+[34.331816] (-) TimerEvent: {}
+[34.432571] (-) TimerEvent: {}
+[34.533300] (-) TimerEvent: {}
+[34.633944] (-) TimerEvent: {}
+[34.734726] (-) TimerEvent: {}
+[34.835473] (-) TimerEvent: {}
+[34.936113] (-) TimerEvent: {}
+[35.036891] (-) TimerEvent: {}
+[35.137680] (-) TimerEvent: {}
+[35.238330] (-) TimerEvent: {}
+[35.339105] (-) TimerEvent: {}
+[35.439849] (-) TimerEvent: {}
+[35.540488] (-) TimerEvent: {}
+[35.641266] (-) TimerEvent: {}
+[35.742038] (-) TimerEvent: {}
+[35.842700] (-) TimerEvent: {}
+[35.943475] (-) TimerEvent: {}
+[36.044226] (-) TimerEvent: {}
+[36.144989] (-) TimerEvent: {}
+[36.245796] (-) TimerEvent: {}
+[36.346545] (-) TimerEvent: {}
+[36.447314] (-) TimerEvent: {}
+[36.548075] (-) TimerEvent: {}
+[36.648839] (-) TimerEvent: {}
+[36.749688] (-) TimerEvent: {}
+[36.850491] (-) TimerEvent: {}
+[36.951294] (-) TimerEvent: {}
+[37.052075] (-) TimerEvent: {}
+[37.152851] (-) TimerEvent: {}
+[37.253677] (-) TimerEvent: {}
+[37.354321] (-) TimerEvent: {}
+[37.454915] (-) TimerEvent: {}
+[37.555520] (-) TimerEvent: {}
+[37.656156] (-) TimerEvent: {}
+[37.756881] (-) TimerEvent: {}
+[37.857663] (-) TimerEvent: {}
+[37.958441] (-) TimerEvent: {}
+[38.059226] (-) TimerEvent: {}
+[38.160001] (-) TimerEvent: {}
+[38.260705] (-) TimerEvent: {}
+[38.361533] (-) TimerEvent: {}
+[38.462394] (-) TimerEvent: {}
+[38.563063] (-) TimerEvent: {}
+[38.663866] (-) TimerEvent: {}
+[38.764628] (-) TimerEvent: {}
+[38.865300] (-) TimerEvent: {}
+[38.966188] (-) TimerEvent: {}
+[39.066949] (-) TimerEvent: {}
+[39.167601] (-) TimerEvent: {}
+[39.268437] (-) TimerEvent: {}
+[39.369220] (-) TimerEvent: {}
+[39.470005] (-) TimerEvent: {}
+[39.570772] (-) TimerEvent: {}
+[39.671574] (-) TimerEvent: {}
+[39.772397] (-) TimerEvent: {}
+[39.873196] (-) TimerEvent: {}
+[39.974035] (-) TimerEvent: {}
+[40.074804] (-) TimerEvent: {}
+[40.175651] (-) TimerEvent: {}
+[40.276420] (-) TimerEvent: {}
+[40.377263] (-) TimerEvent: {}
+[40.478030] (-) TimerEvent: {}
+[40.578621] (-) TimerEvent: {}
+[40.679368] (-) TimerEvent: {}
+[40.780044] (-) TimerEvent: {}
+[40.880691] (-) TimerEvent: {}
+[40.981478] (-) TimerEvent: {}
+[41.082211] (-) TimerEvent: {}
+[41.182871] (-) TimerEvent: {}
+[41.283678] (-) TimerEvent: {}
+[41.384469] (-) TimerEvent: {}
+[41.485522] (-) TimerEvent: {}
+[41.586277] (-) TimerEvent: {}
+[41.687133] (-) TimerEvent: {}
+[41.787952] (-) TimerEvent: {}
+[41.888778] (-) TimerEvent: {}
+[41.989622] (-) TimerEvent: {}
+[42.090407] (-) TimerEvent: {}
+[42.191178] (-) TimerEvent: {}
+[42.291991] (-) TimerEvent: {}
+[42.392785] (-) TimerEvent: {}
+[42.493481] (-) TimerEvent: {}
+[42.594185] (-) TimerEvent: {}
+[42.694952] (-) TimerEvent: {}
+[42.795678] (-) TimerEvent: {}
+[42.896474] (-) TimerEvent: {}
+[42.997272] (-) TimerEvent: {}
+[43.098099] (-) TimerEvent: {}
+[43.198904] (-) TimerEvent: {}
+[43.299742] (-) TimerEvent: {}
+[43.400554] (-) TimerEvent: {}
+[43.501363] (-) TimerEvent: {}
+[43.602020] (-) TimerEvent: {}
+[43.702810] (-) TimerEvent: {}
+[43.803576] (-) TimerEvent: {}
+[43.904254] (-) TimerEvent: {}
+[44.005099] (-) TimerEvent: {}
+[44.105884] (-) TimerEvent: {}
+[44.206520] (-) TimerEvent: {}
+[44.307312] (-) TimerEvent: {}
+[44.408135] (-) TimerEvent: {}
+[44.508935] (-) TimerEvent: {}
+[44.609593] (-) TimerEvent: {}
+[44.710394] (-) TimerEvent: {}
+[44.811210] (-) TimerEvent: {}
+[44.912015] (-) TimerEvent: {}
+[45.013001] (-) TimerEvent: {}
+[45.113863] (-) TimerEvent: {}
+[45.214606] (-) TimerEvent: {}
+[45.315270] (-) TimerEvent: {}
+[45.416050] (-) TimerEvent: {}
+[45.516826] (-) TimerEvent: {}
+[45.617532] (-) TimerEvent: {}
+[45.718348] (-) TimerEvent: {}
+[45.819146] (-) TimerEvent: {}
+[45.919811] (-) TimerEvent: {}
+[46.020603] (-) TimerEvent: {}
+[46.121354] (-) TimerEvent: {}
+[46.221957] (-) TimerEvent: {}
+[46.322792] (-) TimerEvent: {}
+[46.423579] (-) TimerEvent: {}
+[46.524486] (-) TimerEvent: {}
+[46.625208] (-) TimerEvent: {}
+[46.726130] (-) TimerEvent: {}
+[46.826923] (-) TimerEvent: {}
+[46.927724] (-) TimerEvent: {}
+[47.028523] (-) TimerEvent: {}
+[47.129359] (-) TimerEvent: {}
+[47.230161] (-) TimerEvent: {}
+[47.330934] (-) TimerEvent: {}
+[47.431639] (-) TimerEvent: {}
+[47.532453] (-) TimerEvent: {}
+[47.633258] (-) TimerEvent: {}
+[47.734069] (-) TimerEvent: {}
+[47.834866] (-) TimerEvent: {}
+[47.935678] (-) TimerEvent: {}
+[48.036458] (-) TimerEvent: {}
+[48.137217] (-) TimerEvent: {}
+[48.237878] (-) TimerEvent: {}
+[48.338396] (-) TimerEvent: {}
+[48.439048] (-) TimerEvent: {}
+[48.539852] (-) TimerEvent: {}
+[48.640515] (-) TimerEvent: {}
+[48.741305] (-) TimerEvent: {}
+[48.842079] (-) TimerEvent: {}
+[48.942729] (-) TimerEvent: {}
+[49.043549] (-) TimerEvent: {}
+[49.144356] (-) TimerEvent: {}
+[49.245014] (-) TimerEvent: {}
+[49.345836] (-) TimerEvent: {}
+[49.446612] (-) TimerEvent: {}
+[49.547276] (-) TimerEvent: {}
+[49.648113] (-) TimerEvent: {}
+[49.748920] (-) TimerEvent: {}
+[49.849795] (-) TimerEvent: {}
+[49.950599] (-) TimerEvent: {}
+[50.051555] (-) TimerEvent: {}
+[50.152400] (-) TimerEvent: {}
+[50.253171] (-) TimerEvent: {}
+[50.353784] (-) TimerEvent: {}
+[50.454478] (-) TimerEvent: {}
+[50.555258] (-) TimerEvent: {}
+[50.655957] (-) TimerEvent: {}
+[50.756770] (-) TimerEvent: {}
+[50.857589] (-) TimerEvent: {}
+[50.958254] (-) TimerEvent: {}
+[51.059057] (-) TimerEvent: {}
+[51.159826] (-) TimerEvent: {}
+[51.260477] (-) TimerEvent: {}
+[51.361257] (-) TimerEvent: {}
+[51.462037] (-) TimerEvent: {}
+[51.562682] (-) TimerEvent: {}
+[51.663474] (-) TimerEvent: {}
+[51.764301] (-) TimerEvent: {}
+[51.864996] (-) TimerEvent: {}
+[51.965816] (-) TimerEvent: {}
+[52.066605] (-) TimerEvent: {}
+[52.167383] (-) TimerEvent: {}
+[52.268167] (-) TimerEvent: {}
+[52.368942] (-) TimerEvent: {}
+[52.469745] (-) TimerEvent: {}
+[52.570529] (-) TimerEvent: {}
+[52.671314] (-) TimerEvent: {}
+[52.772087] (-) TimerEvent: {}
+[52.872851] (-) TimerEvent: {}
+[52.973645] (-) TimerEvent: {}
+[53.074420] (-) TimerEvent: {}
+[53.175181] (-) TimerEvent: {}
+[53.275921] (-) TimerEvent: {}
+[53.376699] (-) TimerEvent: {}
+[53.477483] (-) TimerEvent: {}
+[53.578235] (-) TimerEvent: {}
+[53.679029] (-) TimerEvent: {}
+[53.779834] (-) TimerEvent: {}
+[53.880621] (-) TimerEvent: {}
+[53.981438] (-) TimerEvent: {}
+[54.082231] (-) TimerEvent: {}
+[54.182948] (-) TimerEvent: {}
+[54.283562] (-) TimerEvent: {}
+[54.384207] (-) TimerEvent: {}
+[54.484902] (-) TimerEvent: {}
+[54.585521] (-) TimerEvent: {}
+[54.686317] (-) TimerEvent: {}
+[54.787030] (-) TimerEvent: {}
+[54.887566] (-) TimerEvent: {}
+[54.988259] (-) TimerEvent: {}
+[55.088879] (-) TimerEvent: {}
+[55.189480] (-) TimerEvent: {}
+[55.290150] (-) TimerEvent: {}
+[55.390870] (-) TimerEvent: {}
+[55.491499] (-) TimerEvent: {}
+[55.592271] (-) TimerEvent: {}
+[55.693103] (-) TimerEvent: {}
+[55.793782] (-) TimerEvent: {}
+[55.894582] (-) TimerEvent: {}
+[55.995412] (-) TimerEvent: {}
+[56.096201] (-) TimerEvent: {}
+[56.196932] (-) TimerEvent: {}
+[56.297584] (-) TimerEvent: {}
+[56.398161] (-) TimerEvent: {}
+[56.498774] (-) TimerEvent: {}
+[56.599418] (-) TimerEvent: {}
+[56.700207] (-) TimerEvent: {}
+[56.800966] (-) TimerEvent: {}
+[56.901672] (-) TimerEvent: {}
+[57.002375] (-) TimerEvent: {}
+[57.103065] (-) TimerEvent: {}
+[57.203732] (-) TimerEvent: {}
+[57.304543] (-) TimerEvent: {}
+[57.405315] (-) TimerEvent: {}
+[57.505991] (-) TimerEvent: {}
+[57.606794] (-) TimerEvent: {}
+[57.707559] (-) TimerEvent: {}
+[57.808212] (-) TimerEvent: {}
+[57.909022] (-) TimerEvent: {}
+[58.009821] (-) TimerEvent: {}
+[58.110489] (-) TimerEvent: {}
+[58.211280] (-) TimerEvent: {}
+[58.312049] (-) TimerEvent: {}
+[58.412706] (-) TimerEvent: {}
+[58.513516] (-) TimerEvent: {}
+[58.614287] (-) TimerEvent: {}
+[58.714957] (-) TimerEvent: {}
+[58.815754] (-) TimerEvent: {}
+[58.916552] (-) TimerEvent: {}
+[59.017361] (-) TimerEvent: {}
+[59.118082] (-) TimerEvent: {}
+[59.218756] (-) TimerEvent: {}
+[59.319542] (-) TimerEvent: {}
+[59.420313] (-) TimerEvent: {}
+[59.521080] (-) TimerEvent: {}
+[59.621894] (-) TimerEvent: {}
+[59.722688] (-) TimerEvent: {}
+[59.823472] (-) TimerEvent: {}
+[59.924278] (-) TimerEvent: {}
+[60.025056] (-) TimerEvent: {}
+[60.125818] (-) TimerEvent: {}
+[60.226488] (-) TimerEvent: {}
+[60.327226] (-) TimerEvent: {}
+[60.427836] (-) TimerEvent: {}
+[60.528470] (-) TimerEvent: {}
+[60.629214] (-) TimerEvent: {}
+[60.730047] (-) TimerEvent: {}
+[60.830876] (-) TimerEvent: {}
+[60.931692] (-) TimerEvent: {}
+[61.032488] (-) TimerEvent: {}
+[61.133303] (-) TimerEvent: {}
+[61.234172] (-) TimerEvent: {}
+[61.334998] (-) TimerEvent: {}
+[61.435705] (-) TimerEvent: {}
+[61.536541] (-) TimerEvent: {}
+[61.637318] (-) TimerEvent: {}
+[61.738011] (-) TimerEvent: {}
+[61.838832] (-) TimerEvent: {}
+[61.939652] (-) TimerEvent: {}
+[62.040459] (-) TimerEvent: {}
+[62.141278] (-) TimerEvent: {}
+[62.242066] (-) TimerEvent: {}
+[62.342918] (-) TimerEvent: {}
+[62.443734] (-) TimerEvent: {}
+[62.544614] (-) TimerEvent: {}
+[62.645511] (-) TimerEvent: {}
+[62.746290] (-) TimerEvent: {}
+[62.847016] (-) TimerEvent: {}
+[62.947818] (-) TimerEvent: {}
+[63.048581] (-) TimerEvent: {}
+[63.149250] (-) TimerEvent: {}
+[63.250090] (-) TimerEvent: {}
+[63.350870] (-) TimerEvent: {}
+[63.451565] (-) TimerEvent: {}
+[63.552444] (-) TimerEvent: {}
+[63.653266] (-) TimerEvent: {}
+[63.754219] (-) TimerEvent: {}
+[63.855046] (-) TimerEvent: {}
+[63.955840] (-) TimerEvent: {}
+[64.056635] (-) TimerEvent: {}
+[64.157442] (-) TimerEvent: {}
+[64.258229] (-) TimerEvent: {}
+[64.359007] (-) TimerEvent: {}
+[64.459787] (-) TimerEvent: {}
+[64.560558] (-) TimerEvent: {}
+[64.661374] (-) TimerEvent: {}
+[64.762151] (-) TimerEvent: {}
+[64.863211] (-) TimerEvent: {}
+[64.964054] (-) TimerEvent: {}
+[65.064886] (-) TimerEvent: {}
+[65.165927] (-) TimerEvent: {}
+[65.266634] (-) TimerEvent: {}
+[65.367458] (-) TimerEvent: {}
+[65.468251] (-) TimerEvent: {}
+[65.568955] (-) TimerEvent: {}
+[65.669814] (-) TimerEvent: {}
+[65.800717] (-) TimerEvent: {}
+[65.901506] (-) TimerEvent: {}
+[66.002158] (-) TimerEvent: {}
+[66.102800] (-) TimerEvent: {}
+[66.203437] (-) TimerEvent: {}
+[66.304098] (-) TimerEvent: {}
+[66.404756] (-) TimerEvent: {}
+[66.505440] (-) TimerEvent: {}
+[66.606099] (-) TimerEvent: {}
+[66.706772] (-) TimerEvent: {}
+[66.807438] (-) TimerEvent: {}
+[66.908188] (-) TimerEvent: {}
+[67.008972] (-) TimerEvent: {}
+[67.109697] (-) TimerEvent: {}
+[67.210345] (-) TimerEvent: {}
+[67.311105] (-) TimerEvent: {}
+[67.411818] (-) TimerEvent: {}
+[67.512471] (-) TimerEvent: {}
+[67.613258] (-) TimerEvent: {}
+[67.714000] (-) TimerEvent: {}
+[67.814697] (-) TimerEvent: {}
+[67.915392] (-) TimerEvent: {}
+[68.016073] (-) TimerEvent: {}
+[68.116810] (-) TimerEvent: {}
+[68.217791] (-) TimerEvent: {}
+[68.318456] (-) TimerEvent: {}
+[68.419217] (-) TimerEvent: {}
+[68.519920] (-) TimerEvent: {}
+[68.620563] (-) TimerEvent: {}
+[68.721289] (-) TimerEvent: {}
+[68.821976] (-) TimerEvent: {}
+[68.922626] (-) TimerEvent: {}
+[69.023338] (-) TimerEvent: {}
+[69.124078] (-) TimerEvent: {}
+[69.224767] (-) TimerEvent: {}
+[69.325480] (-) TimerEvent: {}
+[69.426138] (-) TimerEvent: {}
+[69.526816] (-) TimerEvent: {}
+[69.627454] (-) TimerEvent: {}
+[69.728170] (-) TimerEvent: {}
+[69.828816] (-) TimerEvent: {}
+[69.929469] (-) TimerEvent: {}
+[70.030092] (-) TimerEvent: {}
+[70.130713] (-) TimerEvent: {}
+[70.231344] (-) TimerEvent: {}
+[70.331959] (-) TimerEvent: {}
+[70.432576] (-) TimerEvent: {}
+[70.533217] (-) TimerEvent: {}
+[70.633882] (-) TimerEvent: {}
+[70.734520] (-) TimerEvent: {}
+[70.835218] (-) TimerEvent: {}
+[70.935854] (-) TimerEvent: {}
+[71.036502] (-) TimerEvent: {}
+[71.137138] (-) TimerEvent: {}
+[71.237917] (-) TimerEvent: {}
+[71.338625] (-) TimerEvent: {}
+[71.439341] (-) TimerEvent: {}
+[71.540059] (-) TimerEvent: {}
+[71.640748] (-) TimerEvent: {}
+[71.741464] (-) TimerEvent: {}
+[71.842165] (-) TimerEvent: {}
+[71.942846] (-) TimerEvent: {}
+[72.043536] (-) TimerEvent: {}
+[72.144173] (-) TimerEvent: {}
+[72.244868] (-) TimerEvent: {}
+[72.345567] (-) TimerEvent: {}
+[72.446243] (-) TimerEvent: {}
+[72.546921] (-) TimerEvent: {}
+[72.647665] (-) TimerEvent: {}
+[72.748323] (-) TimerEvent: {}
+[72.849045] (-) TimerEvent: {}
+[72.949726] (-) TimerEvent: {}
+[73.050317] (-) TimerEvent: {}
+[73.151023] (-) TimerEvent: {}
+[73.251670] (-) TimerEvent: {}
+[73.352261] (-) TimerEvent: {}
+[73.452895] (-) TimerEvent: {}
+[73.553649] (-) TimerEvent: {}
+[73.654306] (-) TimerEvent: {}
+[73.755011] (-) TimerEvent: {}
+[73.855708] (-) TimerEvent: {}
+[73.956335] (-) TimerEvent: {}
+[74.057063] (-) TimerEvent: {}
+[74.157790] (-) TimerEvent: {}
+[74.258422] (-) TimerEvent: {}
+[74.359191] (-) TimerEvent: {}
+[74.459878] (-) TimerEvent: {}
+[74.560513] (-) TimerEvent: {}
+[74.661261] (-) TimerEvent: {}
+[74.761962] (-) TimerEvent: {}
+[74.862600] (-) TimerEvent: {}
+[74.963317] (-) TimerEvent: {}
+[75.064009] (-) TimerEvent: {}
+[75.164639] (-) TimerEvent: {}
+[75.265431] (-) TimerEvent: {}
+[75.366065] (-) TimerEvent: {}
+[75.466704] (-) TimerEvent: {}
+[75.567402] (-) TimerEvent: {}
+[75.668112] (-) TimerEvent: {}
+[75.768753] (-) TimerEvent: {}
+[75.869518] (-) TimerEvent: {}
+[75.970222] (-) TimerEvent: {}
+[76.070905] (-) TimerEvent: {}
+[76.171648] (-) TimerEvent: {}
+[76.272296] (-) TimerEvent: {}
+[76.373019] (-) TimerEvent: {}
+[76.473789] (-) TimerEvent: {}
+[76.574440] (-) TimerEvent: {}
+[76.675146] (-) TimerEvent: {}
+[76.775864] (-) TimerEvent: {}
+[76.876520] (-) TimerEvent: {}
+[76.977273] (-) TimerEvent: {}
+[77.078014] (-) TimerEvent: {}
+[77.178697] (-) TimerEvent: {}
+[77.279392] (-) TimerEvent: {}
+[77.380094] (-) TimerEvent: {}
+[77.480772] (-) TimerEvent: {}
+[77.581484] (-) TimerEvent: {}
+[77.682123] (-) TimerEvent: {}
+[77.782809] (-) TimerEvent: {}
+[77.883540] (-) TimerEvent: {}
+[77.984204] (-) TimerEvent: {}
+[78.084860] (-) TimerEvent: {}
+[78.185643] (-) TimerEvent: {}
+[78.286326] (-) TimerEvent: {}
+[78.387115] (-) TimerEvent: {}
+[78.487895] (-) TimerEvent: {}
+[78.588553] (-) TimerEvent: {}
+[78.689294] (-) TimerEvent: {}
+[78.789982] (-) TimerEvent: {}
+[78.890631] (-) TimerEvent: {}
+[78.991403] (-) TimerEvent: {}
+[79.092113] (-) TimerEvent: {}
+[79.192788] (-) TimerEvent: {}
+[79.293537] (-) TimerEvent: {}
+[79.394170] (-) TimerEvent: {}
+[79.494910] (-) TimerEvent: {}
+[79.595640] (-) TimerEvent: {}
+[79.696251] (-) TimerEvent: {}
+[79.796983] (-) TimerEvent: {}
+[79.897695] (-) TimerEvent: {}
+[79.998333] (-) TimerEvent: {}
+[80.099032] (-) TimerEvent: {}
+[80.199822] (-) TimerEvent: {}
+[80.300461] (-) TimerEvent: {}
+[80.401220] (-) TimerEvent: {}
+[80.501904] (-) TimerEvent: {}
+[80.602541] (-) TimerEvent: {}
+[80.703291] (-) TimerEvent: {}
+[80.803973] (-) TimerEvent: {}
+[80.904638] (-) TimerEvent: {}
+[81.005395] (-) TimerEvent: {}
+[81.106083] (-) TimerEvent: {}
+[81.206717] (-) TimerEvent: {}
+[81.307451] (-) TimerEvent: {}
+[81.408160] (-) TimerEvent: {}
+[81.508883] (-) TimerEvent: {}
+[81.609601] (-) TimerEvent: {}
+[81.710282] (-) TimerEvent: {}
+[81.810969] (-) TimerEvent: {}
+[81.911828] (-) TimerEvent: {}
+[82.012456] (-) TimerEvent: {}
+[82.113193] (-) TimerEvent: {}
+[82.213943] (-) TimerEvent: {}
+[82.314572] (-) TimerEvent: {}
+[82.415285] (-) TimerEvent: {}
+[82.515971] (-) TimerEvent: {}
+[82.616677] (-) TimerEvent: {}
+[82.717416] (-) TimerEvent: {}
+[82.818142] (-) TimerEvent: {}
+[82.918865] (-) TimerEvent: {}
+[83.019547] (-) TimerEvent: {}
+[83.120196] (-) TimerEvent: {}
+[83.220970] (-) TimerEvent: {}
+[83.321683] (-) TimerEvent: {}
+[83.422323] (-) TimerEvent: {}
+[83.522979] (-) TimerEvent: {}
+[83.623735] (-) TimerEvent: {}
+[83.724488] (-) TimerEvent: {}
+[83.825521] (-) TimerEvent: {}
+[83.926208] (-) TimerEvent: {}
+[84.026930] (-) TimerEvent: {}
+[84.127713] (-) TimerEvent: {}
+[84.228350] (-) TimerEvent: {}
+[84.329049] (-) TimerEvent: {}
+[84.429728] (-) TimerEvent: {}
+[84.530387] (-) TimerEvent: {}
+[84.631110] (-) TimerEvent: {}
+[84.731780] (-) TimerEvent: {}
+[84.832429] (-) TimerEvent: {}
+[84.933073] (-) TimerEvent: {}
+[85.033721] (-) TimerEvent: {}
+[85.134350] (-) TimerEvent: {}
+[85.234980] (-) TimerEvent: {}
+[85.335615] (-) TimerEvent: {}
+[85.436228] (-) TimerEvent: {}
+[85.536853] (-) TimerEvent: {}
+[85.637488] (-) TimerEvent: {}
+[85.738127] (-) TimerEvent: {}
+[85.838746] (-) TimerEvent: {}
+[85.939419] (-) TimerEvent: {}
+[86.040047] (-) TimerEvent: {}
+[86.140679] (-) TimerEvent: {}
+[86.241312] (-) TimerEvent: {}
+[86.341953] (-) TimerEvent: {}
+[86.442581] (-) TimerEvent: {}
+[86.543197] (-) TimerEvent: {}
+[86.643817] (-) TimerEvent: {}
+[86.744484] (-) TimerEvent: {}
+[86.845113] (-) TimerEvent: {}
+[86.945766] (-) TimerEvent: {}
+[87.046391] (-) TimerEvent: {}
+[87.147030] (-) TimerEvent: {}
+[87.247714] (-) TimerEvent: {}
+[87.348403] (-) TimerEvent: {}
+[87.449137] (-) TimerEvent: {}
+[87.549845] (-) TimerEvent: {}
+[87.650485] (-) TimerEvent: {}
+[87.751245] (-) TimerEvent: {}
+[87.851937] (-) TimerEvent: {}
+[87.952607] (-) TimerEvent: {}
+[88.053413] (-) TimerEvent: {}
+[88.154038] (-) TimerEvent: {}
+[88.254744] (-) TimerEvent: {}
+[88.355448] (-) TimerEvent: {}
+[88.456161] (-) TimerEvent: {}
+[88.556842] (-) TimerEvent: {}
+[88.657523] (-) TimerEvent: {}
+[88.758158] (-) TimerEvent: {}
+[88.858833] (-) TimerEvent: {}
+[88.959472] (-) TimerEvent: {}
+[89.060106] (-) TimerEvent: {}
+[89.160746] (-) TimerEvent: {}
+[89.261395] (-) TimerEvent: {}
+[89.362044] (-) TimerEvent: {}
+[89.462670] (-) TimerEvent: {}
+[89.563294] (-) TimerEvent: {}
+[89.663920] (-) TimerEvent: {}
+[89.764534] (-) TimerEvent: {}
+[89.865158] (-) TimerEvent: {}
+[89.965827] (-) TimerEvent: {}
+[90.066455] (-) TimerEvent: {}
+[90.167094] (-) TimerEvent: {}
+[90.267724] (-) TimerEvent: {}
+[90.368347] (-) TimerEvent: {}
+[90.468964] (-) TimerEvent: {}
+[90.569613] (-) TimerEvent: {}
+[90.670241] (-) TimerEvent: {}
+[90.770885] (-) TimerEvent: {}
+[90.871539] (-) TimerEvent: {}
+[90.972217] (-) TimerEvent: {}
+[91.072849] (-) TimerEvent: {}
+[91.173498] (-) TimerEvent: {}
+[91.274152] (-) TimerEvent: {}
+[91.374813] (-) TimerEvent: {}
+[91.475477] (-) TimerEvent: {}
+[91.576117] (-) TimerEvent: {}
+[91.676762] (-) TimerEvent: {}
+[91.777473] (-) TimerEvent: {}
+[91.878119] (-) TimerEvent: {}
+[91.978774] (-) TimerEvent: {}
+[92.079410] (-) TimerEvent: {}
+[92.180062] (-) TimerEvent: {}
+[92.280677] (-) TimerEvent: {}
+[92.381340] (-) TimerEvent: {}
+[92.482005] (-) TimerEvent: {}
+[92.582660] (-) TimerEvent: {}
+[92.683291] (-) TimerEvent: {}
+[92.783924] (-) TimerEvent: {}
+[92.884548] (-) TimerEvent: {}
+[92.985173] (-) TimerEvent: {}
+[93.085856] (-) TimerEvent: {}
+[93.186503] (-) TimerEvent: {}
+[93.287136] (-) TimerEvent: {}
+[93.387775] (-) TimerEvent: {}
+[93.488416] (-) TimerEvent: {}
+[93.589040] (-) TimerEvent: {}
+[93.689700] (-) TimerEvent: {}
+[93.790356] (-) TimerEvent: {}
+[93.891015] (-) TimerEvent: {}
+[93.991676] (-) TimerEvent: {}
+[94.092310] (-) TimerEvent: {}
+[94.192940] (-) TimerEvent: {}
+[94.293574] (-) TimerEvent: {}
+[94.394200] (-) TimerEvent: {}
+[94.494822] (-) TimerEvent: {}
+[94.595444] (-) TimerEvent: {}
+[94.696068] (-) TimerEvent: {}
+[94.796707] (-) TimerEvent: {}
+[94.897353] (-) TimerEvent: {}
+[94.997995] (-) TimerEvent: {}
+[95.098625] (-) TimerEvent: {}
+[95.199241] (-) TimerEvent: {}
+[95.299859] (-) TimerEvent: {}
+[95.400501] (-) TimerEvent: {}
+[95.501139] (-) TimerEvent: {}
+[95.601777] (-) TimerEvent: {}
+[95.702404] (-) TimerEvent: {}
+[95.803045] (-) TimerEvent: {}
+[95.903680] (-) TimerEvent: {}
+[96.004349] (-) TimerEvent: {}
+[96.104991] (-) TimerEvent: {}
+[96.205652] (-) TimerEvent: {}
+[96.306279] (-) TimerEvent: {}
+[96.406929] (-) TimerEvent: {}
+[96.507562] (-) TimerEvent: {}
+[96.608182] (-) TimerEvent: {}
+[96.708831] (-) TimerEvent: {}
+[96.809483] (-) TimerEvent: {}
+[96.910142] (-) TimerEvent: {}
+[97.010801] (-) TimerEvent: {}
+[97.111458] (-) TimerEvent: {}
+[97.212105] (-) TimerEvent: {}
+[97.312744] (-) TimerEvent: {}
+[97.413413] (-) TimerEvent: {}
+[97.514066] (-) TimerEvent: {}
+[97.614723] (-) TimerEvent: {}
+[97.715359] (-) TimerEvent: {}
+[97.816041] (-) TimerEvent: {}
+[97.916716] (-) TimerEvent: {}
+[98.017358] (-) TimerEvent: {}
+[98.117990] (-) TimerEvent: {}
+[98.218622] (-) TimerEvent: {}
+[98.319257] (-) TimerEvent: {}
+[98.419871] (-) TimerEvent: {}
+[98.520491] (-) TimerEvent: {}
+[98.621107] (-) TimerEvent: {}
+[98.721746] (-) TimerEvent: {}
+[98.822366] (-) TimerEvent: {}
+[98.922990] (-) TimerEvent: {}
+[99.023625] (-) TimerEvent: {}
+[99.124265] (-) TimerEvent: {}
+[99.224915] (-) TimerEvent: {}
+[99.325547] (-) TimerEvent: {}
+[99.426172] (-) TimerEvent: {}
+[99.526793] (-) TimerEvent: {}
+[99.627419] (-) TimerEvent: {}
+[99.728054] (-) TimerEvent: {}
+[99.828688] (-) TimerEvent: {}
+[99.929309] (-) TimerEvent: {}
+[100.029954] (-) TimerEvent: {}
+[100.130584] (-) TimerEvent: {}
+[100.231244] (-) TimerEvent: {}
+[100.331873] (-) TimerEvent: {}
+[100.432492] (-) TimerEvent: {}
+[100.533113] (-) TimerEvent: {}
+[100.633760] (-) TimerEvent: {}
+[100.734374] (-) TimerEvent: {}
+[100.834992] (-) TimerEvent: {}
+[100.935737] (-) TimerEvent: {}
+[101.036410] (-) TimerEvent: {}
+[101.137134] (-) TimerEvent: {}
+[101.237894] (-) TimerEvent: {}
+[101.338524] (-) TimerEvent: {}
+[101.439283] (-) TimerEvent: {}
+[101.539984] (-) TimerEvent: {}
+[101.640618] (-) TimerEvent: {}
+[101.741379] (-) TimerEvent: {}
+[101.842055] (-) TimerEvent: {}
+[101.942678] (-) TimerEvent: {}
+[102.043494] (-) TimerEvent: {}
+[102.144134] (-) TimerEvent: {}
+[102.244802] (-) TimerEvent: {}
+[102.345482] (-) TimerEvent: {}
+[102.446139] (-) TimerEvent: {}
+[102.546830] (-) TimerEvent: {}
+[102.647584] (-) TimerEvent: {}
+[102.748208] (-) TimerEvent: {}
+[102.848834] (-) TimerEvent: {}
+[102.949580] (-) TimerEvent: {}
+[103.050194] (-) TimerEvent: {}
+[103.150826] (-) TimerEvent: {}
+[103.251454] (-) TimerEvent: {}
+[103.352083] (-) TimerEvent: {}
+[103.452710] (-) TimerEvent: {}
+[103.553349] (-) TimerEvent: {}
+[103.653980] (-) TimerEvent: {}
+[103.754623] (-) TimerEvent: {}
+[103.855277] (-) TimerEvent: {}
+[103.955921] (-) TimerEvent: {}
+[104.056554] (-) TimerEvent: {}
+[104.157184] (-) TimerEvent: {}
+[104.257839] (-) TimerEvent: {}
+[104.358491] (-) TimerEvent: {}
+[104.459144] (-) TimerEvent: {}
+[104.559800] (-) TimerEvent: {}
+[104.660427] (-) TimerEvent: {}
+[104.761076] (-) TimerEvent: {}
+[104.861794] (-) TimerEvent: {}
+[104.962432] (-) TimerEvent: {}
+[105.063144] (-) TimerEvent: {}
+[105.163876] (-) TimerEvent: {}
+[105.264520] (-) TimerEvent: {}
+[105.365260] (-) TimerEvent: {}
+[105.465958] (-) TimerEvent: {}
+[105.566593] (-) TimerEvent: {}
+[105.667300] (-) TimerEvent: {}
+[105.768010] (-) TimerEvent: {}
+[105.868684] (-) TimerEvent: {}
+[105.969449] (-) TimerEvent: {}
+[106.070119] (-) TimerEvent: {}
+[106.170752] (-) TimerEvent: {}
+[106.271511] (-) TimerEvent: {}
+[106.372197] (-) TimerEvent: {}
+[106.472826] (-) TimerEvent: {}
+[106.573645] (-) TimerEvent: {}
+[106.674292] (-) TimerEvent: {}
+[106.774921] (-) TimerEvent: {}
+[106.875586] (-) TimerEvent: {}
+[106.976274] (-) TimerEvent: {}
+[107.077020] (-) TimerEvent: {}
+[107.177755] (-) TimerEvent: {}
+[107.278435] (-) TimerEvent: {}
+[107.379128] (-) TimerEvent: {}
+[107.479823] (-) TimerEvent: {}
+[107.580449] (-) TimerEvent: {}
+[107.681170] (-) TimerEvent: {}
+[107.781931] (-) TimerEvent: {}
+[107.882573] (-) TimerEvent: {}
+[107.983329] (-) TimerEvent: {}
+[108.083998] (-) TimerEvent: {}
+[108.184681] (-) TimerEvent: {}
+[108.285410] (-) TimerEvent: {}
+[108.386095] (-) TimerEvent: {}
+[108.486792] (-) TimerEvent: {}
+[108.587485] (-) TimerEvent: {}
+[108.688192] (-) TimerEvent: {}
+[108.788909] (-) TimerEvent: {}
+[108.889678] (-) TimerEvent: {}
+[108.990332] (-) TimerEvent: {}
+[109.091050] (-) TimerEvent: {}
+[109.191753] (-) TimerEvent: {}
+[109.292408] (-) TimerEvent: {}
+[109.393136] (-) TimerEvent: {}
+[109.493873] (-) TimerEvent: {}
+[109.594527] (-) TimerEvent: {}
+[109.695309] (-) TimerEvent: {}
+[109.796001] (-) TimerEvent: {}
+[109.896640] (-) TimerEvent: {}
+[109.997408] (-) TimerEvent: {}
+[110.098118] (-) TimerEvent: {}
+[110.198802] (-) TimerEvent: {}
+[110.299496] (-) TimerEvent: {}
+[110.400165] (-) TimerEvent: {}
+[110.500876] (-) TimerEvent: {}
+[110.601629] (-) TimerEvent: {}
+[110.702272] (-) TimerEvent: {}
+[110.802952] (-) TimerEvent: {}
+[110.903662] (-) TimerEvent: {}
+[111.004292] (-) TimerEvent: {}
+[111.105004] (-) TimerEvent: {}
+[111.205659] (-) TimerEvent: {}
+[111.306299] (-) TimerEvent: {}
+[111.407001] (-) TimerEvent: {}
+[111.507702] (-) TimerEvent: {}
+[111.608373] (-) TimerEvent: {}
+[111.709082] (-) TimerEvent: {}
+[111.809743] (-) TimerEvent: {}
+[111.910419] (-) TimerEvent: {}
+[112.011134] (-) TimerEvent: {}
+[112.111826] (-) TimerEvent: {}
+[112.212465] (-) TimerEvent: {}
+[112.313233] (-) TimerEvent: {}
+[112.414017] (-) TimerEvent: {}
+[112.514684] (-) TimerEvent: {}
+[112.615363] (-) TimerEvent: {}
+[112.716059] (-) TimerEvent: {}
+[112.816735] (-) TimerEvent: {}
+[112.917447] (-) TimerEvent: {}
+[113.018160] (-) TimerEvent: {}
+[113.118869] (-) TimerEvent: {}
+[113.219587] (-) TimerEvent: {}
+[113.320242] (-) TimerEvent: {}
+[113.420974] (-) TimerEvent: {}
+[113.521646] (-) TimerEvent: {}
+[113.622275] (-) TimerEvent: {}
+[113.722954] (-) TimerEvent: {}
+[113.823691] (-) TimerEvent: {}
+[113.924427] (-) TimerEvent: {}
+[114.025094] (-) TimerEvent: {}
+[114.125835] (-) TimerEvent: {}
+[114.226493] (-) TimerEvent: {}
+[114.327256] (-) TimerEvent: {}
+[114.427939] (-) TimerEvent: {}
+[114.528565] (-) TimerEvent: {}
+[114.629200] (-) TimerEvent: {}
+[114.729844] (-) TimerEvent: {}
+[114.830460] (-) TimerEvent: {}
+[114.931078] (-) TimerEvent: {}
+[115.031689] (-) TimerEvent: {}
+[115.132302] (-) TimerEvent: {}
+[115.232928] (-) TimerEvent: {}
+[115.333551] (-) TimerEvent: {}
+[115.434126] (-) TimerEvent: {}
+[115.534707] (-) TimerEvent: {}
+[115.635292] (-) TimerEvent: {}
+[115.735872] (-) TimerEvent: {}
+[115.836457] (-) TimerEvent: {}
+[115.937051] (-) TimerEvent: {}
+[116.037658] (-) TimerEvent: {}
+[116.138237] (-) TimerEvent: {}
+[116.238830] (-) TimerEvent: {}
+[116.339418] (-) TimerEvent: {}
+[116.440022] (-) TimerEvent: {}
+[116.540608] (-) TimerEvent: {}
+[116.641223] (-) TimerEvent: {}
+[116.741878] (-) TimerEvent: {}
+[116.842478] (-) TimerEvent: {}
+[116.943082] (-) TimerEvent: {}
+[117.043662] (-) TimerEvent: {}
+[117.144247] (-) TimerEvent: {}
+[117.244826] (-) TimerEvent: {}
+[117.345425] (-) TimerEvent: {}
+[117.445999] (-) TimerEvent: {}
+[117.546580] (-) TimerEvent: {}
+[117.647182] (-) TimerEvent: {}
+[117.747849] (-) TimerEvent: {}
+[117.848426] (-) TimerEvent: {}
+[117.949030] (-) TimerEvent: {}
+[118.049663] (-) TimerEvent: {}
+[118.150368] (-) TimerEvent: {}
+[118.251003] (-) TimerEvent: {}
+[118.351612] (-) TimerEvent: {}
+[118.452220] (-) TimerEvent: {}
+[118.552806] (-) TimerEvent: {}
+[118.653454] (-) TimerEvent: {}
+[118.754082] (-) TimerEvent: {}
+[118.854663] (-) TimerEvent: {}
+[118.955239] (-) TimerEvent: {}
+[119.055831] (-) TimerEvent: {}
+[119.156476] (-) TimerEvent: {}
+[119.257204] (-) TimerEvent: {}
+[119.357910] (-) TimerEvent: {}
+[119.458488] (-) TimerEvent: {}
+[119.559059] (-) TimerEvent: {}
+[119.659657] (-) TimerEvent: {}
+[119.760279] (-) TimerEvent: {}
+[119.860892] (-) TimerEvent: {}
+[119.961508] (-) TimerEvent: {}
+[120.062144] (-) TimerEvent: {}
+[120.162771] (-) TimerEvent: {}
+[120.263379] (-) TimerEvent: {}
+[120.363978] (-) TimerEvent: {}
+[120.464558] (-) TimerEvent: {}
+[120.565132] (-) TimerEvent: {}
+[120.665806] (-) TimerEvent: {}
+[120.766429] (-) TimerEvent: {}
+[120.867179] (-) TimerEvent: {}
+[120.967842] (-) TimerEvent: {}
+[121.068463] (-) TimerEvent: {}
+[121.169196] (-) TimerEvent: {}
+[121.269894] (-) TimerEvent: {}
+[121.370514] (-) TimerEvent: {}
+[121.471321] (-) TimerEvent: {}
+[121.571992] (-) TimerEvent: {}
+[121.672624] (-) TimerEvent: {}
+[121.773393] (-) TimerEvent: {}
+[121.874118] (-) TimerEvent: {}
+[121.974787] (-) TimerEvent: {}
+[122.075437] (-) TimerEvent: {}
+[122.176073] (-) TimerEvent: {}
+[122.276667] (-) TimerEvent: {}
+[122.377431] (-) TimerEvent: {}
+[122.478097] (-) TimerEvent: {}
+[122.578767] (-) TimerEvent: {}
+[122.679447] (-) TimerEvent: {}
+[122.780121] (-) TimerEvent: {}
+[122.880743] (-) TimerEvent: {}
+[122.981479] (-) TimerEvent: {}
+[123.082161] (-) TimerEvent: {}
+[123.182855] (-) TimerEvent: {}
+[123.283606] (-) TimerEvent: {}
+[123.384250] (-) TimerEvent: {}
+[123.484867] (-) TimerEvent: {}
+[123.585589] (-) TimerEvent: {}
+[123.686232] (-) TimerEvent: {}
+[123.786907] (-) TimerEvent: {}
+[123.887571] (-) TimerEvent: {}
+[123.988241] (-) TimerEvent: {}
+[124.089002] (-) TimerEvent: {}
+[124.189784] (-) TimerEvent: {}
+[124.290411] (-) TimerEvent: {}
+[124.391105] (-) TimerEvent: {}
+[124.491776] (-) TimerEvent: {}
+[124.592384] (-) TimerEvent: {}
+[124.693068] (-) TimerEvent: {}
+[124.793819] (-) TimerEvent: {}
+[124.894481] (-) TimerEvent: {}
+[124.995171] (-) TimerEvent: {}
+[125.095832] (-) TimerEvent: {}
+[125.196465] (-) TimerEvent: {}
+[125.297194] (-) TimerEvent: {}
+[125.397970] (-) TimerEvent: {}
+[125.498616] (-) TimerEvent: {}
+[125.599345] (-) TimerEvent: {}
+[125.699994] (-) TimerEvent: {}
+[125.800627] (-) TimerEvent: {}
+[125.901292] (-) TimerEvent: {}
+[126.001991] (-) TimerEvent: {}
+[126.102619] (-) TimerEvent: {}
+[126.203353] (-) TimerEvent: {}
+[126.304103] (-) TimerEvent: {}
+[126.404752] (-) TimerEvent: {}
+[126.505448] (-) TimerEvent: {}
+[126.606152] (-) TimerEvent: {}
+[126.706829] (-) TimerEvent: {}
+[126.807522] (-) TimerEvent: {}
+[126.908139] (-) TimerEvent: {}
+[127.008750] (-) TimerEvent: {}
+[127.109395] (-) TimerEvent: {}
+[127.210007] (-) TimerEvent: {}
+[127.310645] (-) TimerEvent: {}
+[127.411297] (-) TimerEvent: {}
+[127.511914] (-) TimerEvent: {}
+[127.612549] (-) TimerEvent: {}
+[127.713181] (-) TimerEvent: {}
+[127.813822] (-) TimerEvent: {}
+[127.914441] (-) TimerEvent: {}
+[128.015064] (-) TimerEvent: {}
+[128.115705] (-) TimerEvent: {}
+[128.221605] (-) TimerEvent: {}
+[128.322248] (-) TimerEvent: {}
+[128.422891] (-) TimerEvent: {}
+[128.523540] (-) TimerEvent: {}
+[128.624200] (-) TimerEvent: {}
+[128.724811] (-) TimerEvent: {}
+[128.825471] (-) TimerEvent: {}
+[128.926090] (-) TimerEvent: {}
+[129.026730] (-) TimerEvent: {}
+[129.127361] (-) TimerEvent: {}
+[129.227990] (-) TimerEvent: {}
+[129.328669] (-) TimerEvent: {}
+[129.429368] (-) TimerEvent: {}
+[129.530003] (-) TimerEvent: {}
+[129.630664] (-) TimerEvent: {}
+[129.731298] (-) TimerEvent: {}
+[129.831926] (-) TimerEvent: {}
+[129.932538] (-) TimerEvent: {}
+[130.033151] (-) TimerEvent: {}
+[130.133811] (-) TimerEvent: {}
+[130.234438] (-) TimerEvent: {}
+[130.335064] (-) TimerEvent: {}
+[130.435688] (-) TimerEvent: {}
+[130.536315] (-) TimerEvent: {}
+[130.636997] (-) TimerEvent: {}
+[130.737651] (-) TimerEvent: {}
+[130.838261] (-) TimerEvent: {}
+[130.938879] (-) TimerEvent: {}
+[131.039512] (-) TimerEvent: {}
+[131.140106] (-) TimerEvent: {}
+[131.240699] (-) TimerEvent: {}
+[131.341362] (-) TimerEvent: {}
+[131.442001] (-) TimerEvent: {}
+[131.542642] (-) TimerEvent: {}
+[131.643279] (-) TimerEvent: {}
+[131.743919] (-) TimerEvent: {}
+[131.844560] (-) TimerEvent: {}
+[131.945190] (-) TimerEvent: {}
+[132.045859] (-) TimerEvent: {}
+[132.146472] (-) TimerEvent: {}
+[132.247093] (-) TimerEvent: {}
+[132.347728] (-) TimerEvent: {}
+[132.448384] (-) TimerEvent: {}
+[132.549016] (-) TimerEvent: {}
+[132.649641] (-) TimerEvent: {}
+[132.750298] (-) TimerEvent: {}
+[132.850936] (-) TimerEvent: {}
+[132.951564] (-) TimerEvent: {}
+[133.052186] (-) TimerEvent: {}
+[133.152825] (-) TimerEvent: {}
+[133.283181] (-) TimerEvent: {}
+[133.383821] (-) TimerEvent: {}
+[133.484452] (-) TimerEvent: {}
+[133.585123] (-) TimerEvent: {}
+[133.685985] (-) TimerEvent: {}
+[133.786773] (-) TimerEvent: {}
+[133.887564] (-) TimerEvent: {}
+[133.988332] (-) TimerEvent: {}
+[134.089105] (-) TimerEvent: {}
+[134.189918] (-) TimerEvent: {}
+[134.290725] (-) TimerEvent: {}
+[134.391545] (-) TimerEvent: {}
+[134.492348] (-) TimerEvent: {}
+[134.593150] (-) TimerEvent: {}
+[134.693918] (-) TimerEvent: {}
+[134.794719] (-) TimerEvent: {}
+[134.895500] (-) TimerEvent: {}
+[134.996294] (-) TimerEvent: {}
+[135.097108] (-) TimerEvent: {}
+[135.197913] (-) TimerEvent: {}
+[135.298706] (-) TimerEvent: {}
+[135.399519] (-) TimerEvent: {}
+[135.500308] (-) TimerEvent: {}
+[135.601102] (-) TimerEvent: {}
+[135.701925] (-) TimerEvent: {}
+[135.802716] (-) TimerEvent: {}
+[135.903530] (-) TimerEvent: {}
+[136.004335] (-) TimerEvent: {}
+[136.105110] (-) TimerEvent: {}
+[136.205903] (-) TimerEvent: {}
+[136.306667] (-) TimerEvent: {}
+[136.407448] (-) TimerEvent: {}
+[136.508251] (-) TimerEvent: {}
+[136.609015] (-) TimerEvent: {}
+[136.709814] (-) TimerEvent: {}
+[136.810602] (-) TimerEvent: {}
+[136.911385] (-) TimerEvent: {}
+[137.012182] (-) TimerEvent: {}
+[137.112991] (-) TimerEvent: {}
+[137.213808] (-) TimerEvent: {}
+[137.314595] (-) TimerEvent: {}
+[137.415381] (-) TimerEvent: {}
+[137.516159] (-) TimerEvent: {}
+[137.616949] (-) TimerEvent: {}
+[137.717769] (-) TimerEvent: {}
+[137.818562] (-) TimerEvent: {}
+[137.919356] (-) TimerEvent: {}
+[138.020156] (-) TimerEvent: {}
+[138.120969] (-) TimerEvent: {}
+[138.221784] (-) TimerEvent: {}
+[138.322583] (-) TimerEvent: {}
+[138.423374] (-) TimerEvent: {}
+[138.524185] (-) TimerEvent: {}
+[138.624978] (-) TimerEvent: {}
+[138.725825] (-) TimerEvent: {}
+[138.826603] (-) TimerEvent: {}
+[138.927390] (-) TimerEvent: {}
+[139.028188] (-) TimerEvent: {}
+[139.128987] (-) TimerEvent: {}
+[139.229782] (-) TimerEvent: {}
+[139.330587] (-) TimerEvent: {}
+[139.431378] (-) TimerEvent: {}
+[139.532159] (-) TimerEvent: {}
+[139.632939] (-) TimerEvent: {}
+[139.733758] (-) TimerEvent: {}
+[139.834556] (-) TimerEvent: {}
+[139.935362] (-) TimerEvent: {}
+[140.036152] (-) TimerEvent: {}
+[140.136949] (-) TimerEvent: {}
+[140.237752] (-) TimerEvent: {}
+[140.338548] (-) TimerEvent: {}
+[140.439343] (-) TimerEvent: {}
+[140.540116] (-) TimerEvent: {}
+[140.640911] (-) TimerEvent: {}
+[140.741719] (-) TimerEvent: {}
+[140.842505] (-) TimerEvent: {}
+[140.943292] (-) TimerEvent: {}
+[141.044076] (-) TimerEvent: {}
+[141.144878] (-) TimerEvent: {}
+[141.245669] (-) TimerEvent: {}
+[141.346472] (-) TimerEvent: {}
+[141.447256] (-) TimerEvent: {}
+[141.548173] (-) TimerEvent: {}
+[141.648961] (-) TimerEvent: {}
+[141.749783] (-) TimerEvent: {}
+[141.850562] (-) TimerEvent: {}
+[141.951332] (-) TimerEvent: {}
+[142.052092] (-) TimerEvent: {}
+[142.152893] (-) TimerEvent: {}
+[142.253687] (-) TimerEvent: {}
+[142.354476] (-) TimerEvent: {}
+[142.455312] (-) TimerEvent: {}
+[142.556092] (-) TimerEvent: {}
+[142.656920] (-) TimerEvent: {}
+[142.757809] (-) TimerEvent: {}
+[142.858601] (-) TimerEvent: {}
+[142.959558] (-) TimerEvent: {}
+[143.060355] (-) TimerEvent: {}
+[143.161201] (-) TimerEvent: {}
+[143.261993] (-) TimerEvent: {}
+[143.362691] (-) TimerEvent: {}
+[143.463659] (-) TimerEvent: {}
+[143.564533] (-) TimerEvent: {}
+[143.665488] (-) TimerEvent: {}
+[143.766357] (-) TimerEvent: {}
+[143.867312] (-) TimerEvent: {}
+[143.968333] (-) TimerEvent: {}
+[144.069242] (-) TimerEvent: {}
+[144.170105] (-) TimerEvent: {}
+[144.270891] (-) TimerEvent: {}
+[144.371814] (-) TimerEvent: {}
+[144.472675] (-) TimerEvent: {}
+[144.573529] (-) TimerEvent: {}
+[144.674339] (-) TimerEvent: {}
+[144.775136] (-) TimerEvent: {}
+[144.875955] (-) TimerEvent: {}
+[144.976743] (-) TimerEvent: {}
+[145.077510] (-) TimerEvent: {}
+[145.178304] (-) TimerEvent: {}
+[145.279140] (-) TimerEvent: {}
+[145.379969] (-) TimerEvent: {}
+[145.480765] (-) TimerEvent: {}
+[145.581545] (-) TimerEvent: {}
+[145.682323] (-) TimerEvent: {}
+[145.783120] (-) TimerEvent: {}
+[145.883924] (-) TimerEvent: {}
+[145.984737] (-) TimerEvent: {}
+[146.085561] (-) TimerEvent: {}
+[146.186377] (-) TimerEvent: {}
+[146.275323] (fast_lio) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fastlio_mapping\x1b[0m\n'}
+[146.286506] (-) TimerEvent: {}
+[146.387107] (-) TimerEvent: {}
+[146.487748] (-) TimerEvent: {}
+[146.588372] (-) TimerEvent: {}
+[146.689002] (-) TimerEvent: {}
+[146.789651] (-) TimerEvent: {}
+[146.890329] (-) TimerEvent: {}
+[146.990996] (-) TimerEvent: {}
+[147.091693] (-) TimerEvent: {}
+[147.192350] (-) TimerEvent: {}
+[147.293056] (-) TimerEvent: {}
+[147.393761] (-) TimerEvent: {}
+[147.494441] (-) TimerEvent: {}
+[147.595157] (-) TimerEvent: {}
+[147.695836] (-) TimerEvent: {}
+[147.796527] (-) TimerEvent: {}
+[147.897203] (-) TimerEvent: {}
+[147.997892] (-) TimerEvent: {}
+[148.098563] (-) TimerEvent: {}
+[148.199258] (-) TimerEvent: {}
+[148.300119] (-) TimerEvent: {}
+[148.400772] (-) TimerEvent: {}
+[148.501441] (-) TimerEvent: {}
+[148.602071] (-) TimerEvent: {}
+[148.702694] (-) TimerEvent: {}
+[148.803413] (-) TimerEvent: {}
+[148.904154] (-) TimerEvent: {}
+[148.966014] (fast_lio) StdoutLine: {'line': b'[100%] Built target fastlio_mapping\n'}
+[149.002878] (fast_lio) CommandEnded: {'returncode': 0}
+[149.004402] (-) TimerEvent: {}
+[149.005863] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'install'}
+[149.026406] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aitec-jetson/slam_ws/build/fast_lio'], 'cwd': '/home/aitec-jetson/slam_ws/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aitec-jetson'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aitec-jetson/slam_ws/install/fast_lio/lib:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/aitec-jetson'), ('OLDPWD', '/home/aitec-jetson/slam_ws/src/fast_lio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9301'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aitec-jetson/slam_ws/install:/home/aitec-jetson/cugo_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aitec-jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aitec-jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2224,unix/ubuntu:/tmp/.ICE-unix/2224'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/43293ae5_b646_4a23_a896_b02f0fa4f91a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aitec-jetson/slam_ws/install/fast_lio:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2:/home/aitec-jetson/cugo_ws/install/cugo_ros2_control2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aitec-jetson/slam_ws/build/fast_lio'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aitec-jetson/slam_ws/install/fast_lio:/home/aitec-jetson/cugo_ws/install/livox_ros_driver2:/home/aitec-jetson/cugo_ws/install/cugo_ros2_control2:/opt/ros/humble')]), 'shell': False}
+[149.044050] (fast_lio) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[149.045002] (fast_lio) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[149.045726] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio\n'}
+[149.062994] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h\n'}
+[149.080003] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h\n'}
+[149.097801] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h\n'}
+[149.104520] (-) TimerEvent: {}
+[149.115172] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h\n'}
+[149.133143] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h\n'}
+[149.151727] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/environment/library_path.sh\n'}
+[149.168596] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/environment/library_path.dsv\n'}
+[149.187285] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h\n'}
+[149.204578] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[149.205003] (-) TimerEvent: {}
+[149.224393] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp\n'}
+[149.241593] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp\n'}
+[149.258405] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp\n'}
+[149.276727] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp\n'}
+[149.305227] (-) TimerEvent: {}
+[149.323646] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp\n'}
+[149.340571] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[149.359433] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[149.377365] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[149.395617] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h\n'}
+[149.405286] (-) TimerEvent: {}
+[149.413238] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[149.431272] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[149.449938] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/environment/pythonpath.sh\n'}
+[149.467049] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/environment/pythonpath.dsv\n'}
+[149.485894] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[149.503526] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[149.505401] (-) TimerEvent: {}
+[149.520847] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[149.540028] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[149.560211] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py\n'}
+[149.578460] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c\n'}
+[149.596683] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[149.605532] (-) TimerEvent: {}
+[149.613590] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[149.631538] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[149.650337] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[149.668667] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[149.686241] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so\n'}
+[149.703870] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py\n'}
+[149.705634] (-) TimerEvent: {}
+[149.720972] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py\n'}
+[149.738130] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c\n'}
+[149.757060] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[149.757818] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[149.758751] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[149.759477] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/msg/Pose6D.idl\n'}
+[149.778769] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/msg/Pose6D.msg\n'}
+[149.799779] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/lib/fast_lio/fastlio_mapping\n'}
+[149.805789] (-) TimerEvent: {}
+[149.827669] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/config/avia.yaml\n'}
+[149.849570] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/config/horizon.yaml\n'}
+[149.867781] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/config/mid360.yaml\n'}
+[149.885914] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/config/ouster64.yaml\n'}
+[149.903321] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/config/velodyne.yaml\n'}
+[149.905891] (-) TimerEvent: {}
+[149.922532] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch\n'}
+[149.940030] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/launch/mapping.launch.py\n'}
+[149.957843] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/rviz/fastlio.rviz\n'}
+[149.976219] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio\n'}
+[149.997299] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio\n'}
+[150.006022] (-) TimerEvent: {}
+[150.016431] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh\n'}
+[150.033572] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv\n'}
+[150.050098] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/environment/path.sh\n'}
+[150.067073] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/environment/path.dsv\n'}
+[150.084995] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/local_setup.bash\n'}
+[150.102758] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/local_setup.sh\n'}
+[150.106123] (-) TimerEvent: {}
+[150.119618] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/local_setup.zsh\n'}
+[150.136134] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/local_setup.dsv\n'}
+[150.152883] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/package.dsv\n'}
+[150.171763] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/ament_index/resource_index/packages/fast_lio\n'}
+[150.189650] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake\n'}
+[150.206298] (-) TimerEvent: {}
+[150.207577] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[150.226536] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[150.244961] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[150.263084] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[150.278732] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[150.295810] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[150.306416] (-) TimerEvent: {}
+[150.312083] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake\n'}
+[150.327522] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake\n'}
+[150.344283] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/package.xml\n'}
+[150.360281] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so\n'}
+[150.360911] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""\n'}
+[150.361291] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so\n'}
+[150.361779] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[150.362062] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so\n'}
+[150.362514] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[150.362772] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so\n'}
+[150.363162] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""\n'}
+[150.363406] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so\n'}
+[150.363799] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""\n'}
+[150.364053] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so\n'}
+[150.364436] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[150.364658] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so\n'}
+[150.364869] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""\n'}
+[150.406590] (-) TimerEvent: {}
+[150.431169] (fast_lio) StdoutLine: {'line': b"Listing '/home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...\n"}
+[150.431688] (fast_lio) StdoutLine: {'line': b"Compiling '/home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py'...\n"}
+[150.431950] (fast_lio) StdoutLine: {'line': b"Listing '/home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...\n"}
+[150.432183] (fast_lio) StdoutLine: {'line': b"Compiling '/home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py'...\n"}
+[150.432408] (fast_lio) StdoutLine: {'line': b"Compiling '/home/aitec-jetson/slam_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py'...\n"}
+[150.441608] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so\n'}
+[150.442084] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/aitec-jetson/slam_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""\n'}
+[150.442215] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake\n'}
+[150.442353] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake\n'}
+[150.442501] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[150.442730] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[150.442996] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake\n'}
+[150.443512] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[150.444117] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[150.444548] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake\n'}
+[150.445043] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[150.445597] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake\n'}
+[150.446073] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake\n'}
+[150.446562] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[150.447049] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[150.447557] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake\n'}
+[150.448089] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake\n'}
+[150.448608] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake\n'}
+[150.449101] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/aitec-jetson/slam_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake\n'}
+[150.454713] (fast_lio) CommandEnded: {'returncode': 0}
+[150.504407] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 0}
+[150.506890] (-) TimerEvent: {}
+[150.507173] (-) EventReactorShutdown: {}

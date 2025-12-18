@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating livox_carto.egg-info
+writing livox_carto.egg-info/PKG-INFO
+writing dependency_links to livox_carto.egg-info/dependency_links.txt
+writing requirements to livox_carto.egg-info/requires.txt
+writing top-level names to livox_carto.egg-info/top_level.txt
+writing manifest file 'livox_carto.egg-info/SOURCES.txt'
+reading manifest file 'livox_carto.egg-info/SOURCES.txt'
+writing manifest file 'livox_carto.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aitec-jetson/slam_ws/install/livox_carto/lib/python3.10/site-packages/livox-carto.egg-link (link to .)
+
+Installed /home/aitec-jetson/slam_ws/build/livox_carto
+running symlink_data
+creating /home/aitec-jetson/slam_ws/install/livox_carto/share/ament_index
+creating /home/aitec-jetson/slam_ws/install/livox_carto/share/ament_index/resource_index
+creating /home/aitec-jetson/slam_ws/install/livox_carto/share/ament_index/resource_index/packages
+symbolically linking /home/aitec-jetson/slam_ws/build/livox_carto/resource/livox_carto -> /home/aitec-jetson/slam_ws/install/livox_carto/share/ament_index/resource_index/packages
+symbolically linking /home/aitec-jetson/slam_ws/build/livox_carto/package.xml -> /home/aitec-jetson/slam_ws/install/livox_carto/share/livox_carto
+creating /home/aitec-jetson/slam_ws/install/livox_carto/share/livox_carto/launch
+symbolically linking /home/aitec-jetson/slam_ws/build/livox_carto/launch/carto_all_in_one.launch.py -> /home/aitec-jetson/slam_ws/install/livox_carto/share/livox_carto/launch
+creating /home/aitec-jetson/slam_ws/install/livox_carto/share/livox_carto/config
+symbolically linking /home/aitec-jetson/slam_ws/build/livox_carto/config/carto.lua -> /home/aitec-jetson/slam_ws/install/livox_carto/share/livox_carto/config

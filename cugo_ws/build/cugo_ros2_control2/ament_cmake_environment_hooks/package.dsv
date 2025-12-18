@@ -1,0 +1,4 @@
+source;share/cugo_ros2_control2/local_setup.bash
+source;share/cugo_ros2_control2/local_setup.dsv
+source;share/cugo_ros2_control2/local_setup.sh
+source;share/cugo_ros2_control2/local_setup.zsh

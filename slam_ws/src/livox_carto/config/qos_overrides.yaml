@@ -1,0 +1,13 @@
+# 让 /scan 的发布者和订阅者都用一致的 QoS（Best Effort）
+/scan:
+  publisher:
+    reliability: best_effort
+    durability: volatile
+    history: keep_last
+    depth: 10
+  subscription:
+    reliability: best_effort
+    durability: volatile
+    history: keep_last
+    depth: 10
+

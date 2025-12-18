@@ -1,0 +1,164 @@
+[0.019s] Invoking command in '/home/aitec-jetson/cugo_ws/build/livox_ros_driver2': /usr/bin/cmake /home/aitec-jetson/cugo_ws/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/aitec-jetson/cugo_ws/install/livox_ros_driver2
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.197s] -- The CXX compiler identification is GNU 11.4.0
+[0.211s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.353s] -- Detecting C compile features
+[0.354s] -- Detecting C compile features - done
+[0.362s] -- Detecting CXX compiler ABI info
+[0.511s] -- Detecting CXX compiler ABI info - done
+[0.528s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.529s] -- Detecting CXX compile features
+[0.531s] -- Detecting CXX compile features - done
+[0.532s] -- livox_ros_driver2 version: 1.2.4
+[0.534s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.817s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.992s] [0mCMake Error: File /home/aitec-jetson/cugo_ws/src/livox_ros_driver2/package.xml does not exist.[0m
+[0.993s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[0.993s]   configure_file Problem configuring file
+[0.993s] Call Stack (most recent call first):
+[0.993s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)
+[0.994s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.994s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:42 (ament_package_xml)
+[0.994s]   CMakeLists.txt:225 (ament_auto_find_build_dependencies)
+[0.994s] 
+[0.994s] [0m
+[1.022s] -- Checking for module 'eigen3'
+[1.044s] --   Found eigen3, version 3.4.0
+[1.105s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.106s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.135s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.165s] -- Checking for module 'flann'
+[1.194s] --   Found flann, version 1.9.1
+[1.288s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[1.288s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[1.345s] -- Looking for pthread.h
+[1.485s] -- Looking for pthread.h - found
+[1.486s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.631s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.633s] -- Found Threads: TRUE  
+[1.637s] -- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  
+[1.651s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.946s] -- Found MPI_C: /usr/lib/aarch64-linux-gnu/libmpi.so (found version "3.1") 
+[1.946s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.951s] -- Found JsonCpp: /usr/lib/aarch64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.980s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[2.028s] -- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.054s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.227s] -- Found X11: /usr/include   
+[2.228s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[2.371s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[2.372s] -- Looking for gethostbyname
+[2.511s] -- Looking for gethostbyname - found
+[2.512s] -- Looking for connect
+[2.647s] -- Looking for connect - found
+[2.648s] -- Looking for remove
+[2.792s] -- Looking for remove - found
+[2.792s] -- Looking for shmat
+[2.932s] -- Looking for shmat - found
+[2.932s] -- Looking for IceConnectionNumber in ICE
+[3.061s] -- Looking for IceConnectionNumber in ICE - found
+[3.307s] -- Found EXPAT: /usr/lib/aarch64-linux-gnu/libexpat.so (found version "2.4.7") 
+[3.311s] -- Found double-conversion: /usr/lib/aarch64-linux-gnu/libdouble-conversion.so  
+[3.317s] -- Found LZ4: /usr/lib/aarch64-linux-gnu/liblz4.so (found version "1.9.3") 
+[3.324s] -- Found LZMA: /usr/lib/aarch64-linux-gnu/liblzma.so (found version "5.2.5") 
+[3.361s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[3.371s] -- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.3.0")  
+[3.378s] -- Found Freetype: /usr/lib/aarch64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[3.388s] -- Found utf8cpp: /usr/include/utf8cpp  
+[3.543s] -- Checking for module 'libusb-1.0'
+[3.570s] --   Found libusb-1.0, version 1.0.25
+[3.657s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[3.660s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[3.660s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.781s] -- Found OpenNI2: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[3.782s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.782s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.015s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.025s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.035s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.244s] -- Found Qhull version 8.0.2
+[4.465s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.674s] -- looking for PCL_COMMON
+[4.675s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[4.675s] -- looking for PCL_KDTREE
+[4.676s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[4.676s] -- looking for PCL_OCTREE
+[4.677s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[4.678s] -- looking for PCL_SEARCH
+[4.679s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[4.679s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.680s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[4.680s] -- looking for PCL_FILTERS
+[4.681s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[4.681s] -- looking for PCL_2D
+[4.682s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.682s] -- looking for PCL_GEOMETRY
+[4.682s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.682s] -- looking for PCL_IO
+[4.683s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[4.684s] -- looking for PCL_FEATURES
+[4.685s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[4.685s] -- looking for PCL_ML
+[4.686s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[4.686s] -- looking for PCL_SEGMENTATION
+[4.687s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[4.688s] -- looking for PCL_VISUALIZATION
+[4.689s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[4.689s] -- looking for PCL_SURFACE
+[4.690s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[4.690s] -- looking for PCL_REGISTRATION
+[4.691s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[4.692s] -- looking for PCL_KEYPOINTS
+[4.693s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[4.693s] -- looking for PCL_TRACKING
+[4.694s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[4.694s] -- looking for PCL_RECOGNITION
+[4.695s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[4.696s] -- looking for PCL_STEREO
+[4.697s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[4.697s] -- looking for PCL_APPS
+[4.698s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[4.699s] -- looking for PCL_IN_HAND_SCANNER
+[4.699s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.699s] -- looking for PCL_MODELER
+[4.699s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.700s] -- looking for PCL_POINT_CLOUD_EDITOR
+[4.700s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.700s] -- looking for PCL_OUTOFCORE
+[4.701s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[4.702s] -- looking for PCL_PEOPLE
+[4.703s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[4.704s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[4.706s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[4.742s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.748s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.759s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.775s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.796s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.832s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.852s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.853s] -- Checking for module 'apr-1'
+[4.858s] --   No package 'apr-1' found
+[5.112s] [0mCMake Error: File /home/aitec-jetson/cugo_ws/src/livox_ros_driver2/package.xml does not exist.[0m
+[5.112s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[5.112s]   configure_file Problem configuring file
+[5.113s] Call Stack (most recent call first):
+[5.113s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)
+[5.113s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[5.113s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[5.113s]   CMakeLists.txt:241 (rosidl_generate_interfaces)
+[5.113s] 
+[5.114s] [0m
+[5.114s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[5.114s]   Packages installing interfaces must include
+[5.114s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[5.114s]   package.xml
+[5.114s] Call Stack (most recent call first):
+[5.115s]   CMakeLists.txt:241 (rosidl_generate_interfaces)
+[5.115s] 
+[5.115s] [0m
+[5.115s] -- Configuring incomplete, errors occurred!
+[5.115s] See also "/home/aitec-jetson/cugo_ws/build/livox_ros_driver2/CMakeFiles/CMakeOutput.log".
+[5.157s] Invoked command in '/home/aitec-jetson/cugo_ws/build/livox_ros_driver2' returned '1': /usr/bin/cmake /home/aitec-jetson/cugo_ws/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/aitec-jetson/cugo_ws/install/livox_ros_driver2

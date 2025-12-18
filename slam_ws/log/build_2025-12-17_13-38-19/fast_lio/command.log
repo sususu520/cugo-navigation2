@@ -1,0 +1,6 @@
+Invoking command in '/home/aitec-jetson/slam_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aitec-jetson/slam_ws/src/fast_lio -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aitec-jetson/slam_ws/install/fast_lio
+Invoked command in '/home/aitec-jetson/slam_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aitec-jetson/slam_ws/src/fast_lio -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aitec-jetson/slam_ws/install/fast_lio
+Invoking command in '/home/aitec-jetson/slam_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aitec-jetson/slam_ws/build/fast_lio -- -j8 -l8
+Invoked command in '/home/aitec-jetson/slam_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aitec-jetson/slam_ws/build/fast_lio -- -j8 -l8
+Invoking command in '/home/aitec-jetson/slam_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aitec-jetson/slam_ws/build/fast_lio
+Invoked command in '/home/aitec-jetson/slam_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aitec-jetson/slam_ws/build/fast_lio

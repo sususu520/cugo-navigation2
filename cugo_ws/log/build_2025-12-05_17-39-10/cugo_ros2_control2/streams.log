@@ -1,0 +1,117 @@
+[0.014s] Invoking command in '/home/aitec-jetson/cugo_ws/build/cugo_ros2_control2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aitec-jetson/cugo_ws/src/cugo_ros2_control2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aitec-jetson/cugo_ws/install/cugo_ros2_control2
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.210s] -- The CXX compiler identification is GNU 11.4.0
+[0.230s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.391s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.391s] -- Detecting C compile features
+[0.393s] -- Detecting C compile features - done
+[0.400s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.582s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.591s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.879s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.996s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.048s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.110s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.116s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.126s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.217s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.220s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.371s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.420s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.483s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.493s] -- Looking for pthread.h
+[1.629s] -- Looking for pthread.h - found
+[1.630s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.770s] -- Found Threads: TRUE  
+[1.883s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.924s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.949s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[1.961s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.080s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.097s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.098s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.099s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.102s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[2.146s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+[2.161s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.163s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.287s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.317s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.318s] -- Configured cppcheck include dirs: /home/aitec-jetson/cugo_ws/src/cugo_ros2_control2/include
+[2.318s] -- Configured cppcheck exclude dirs and/or files: 
+[2.319s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.321s] -- Added test 'lint_cmake' to check CMake code style
+[2.322s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.326s] -- Added test 'uncrustify' to check C / C++ code style
+[2.326s] -- Configured uncrustify additional arguments: 
+[2.327s] -- Added test 'xmllint' to check XML markup files
+[2.329s] -- Configuring done
+[2.388s] -- Generating done
+[2.408s] -- Build files have been written to: /home/aitec-jetson/cugo_ws/build/cugo_ros2_control2
+[2.439s] Invoked command in '/home/aitec-jetson/cugo_ws/build/cugo_ros2_control2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aitec-jetson/cugo_ws/src/cugo_ros2_control2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aitec-jetson/cugo_ws/install/cugo_ros2_control2
+[2.444s] Invoking command in '/home/aitec-jetson/cugo_ws/build/cugo_ros2_control2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aitec-jetson/cugo_ws/build/cugo_ros2_control2 -- -j8 -l8
+[2.539s] [ 15%] [32mBuilding CXX object CMakeFiles/serial_lib.dir/src/serial.cpp.o[0m
+[2.539s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.539s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.539s] [ 21%] [32mBuilding CXX object CMakeFiles/cugo_lib.dir/src/cugo.cpp.o[0m
+[3.221s] [ 26%] [32m[1mLinking CXX static library libcugo_lib.a[0m
+[3.273s] [ 26%] Built target cugo_lib
+[4.162s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.216s] [ 31%] Built target gtest_main
+[8.032s] [ 36%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.145s] [ 36%] Built target gtest
+[8.181s] [ 47%] [32m[1mLinking CXX static library libserial_lib.a[0m
+[8.181s] [ 47%] [32mBuilding CXX object CMakeFiles/test_cugo.dir/test/test_cugo.cpp.o[0m
+[8.279s] [ 47%] Built target serial_lib
+[8.313s] [ 68%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/node.cpp.o[0m
+[8.313s] [ 68%] [32mBuilding CXX object CMakeFiles/test_node.dir/test/test_node.cpp.o[0m
+[8.313s] [ 68%] [32mBuilding CXX object CMakeFiles/test_serial.dir/test/test_serial.cpp.o[0m
+[8.314s] [ 68%] [32mBuilding CXX object CMakeFiles/node_lib.dir/src/node.cpp.o[0m
+[10.291s] [ 73%] [32m[1mLinking CXX executable test_cugo[0m
+[10.633s] [ 73%] Built target test_cugo
+[14.655s] [ 78%] [32m[1mLinking CXX executable test_serial[0m
+[15.087s] [ 78%] Built target test_serial
+[30.589s] [ 84%] [32m[1mLinking CXX executable test_node[0m
+[30.808s] [ 89%] [32m[1mLinking CXX static library libnode_lib.a[0m
+[31.091s] [ 89%] Built target node_lib
+[31.135s] [ 94%] [32mBuilding CXX object CMakeFiles/cugo_ros2_control2.dir/src/main.cpp.o[0m
+[31.906s] [ 94%] Built target test_node
+[40.612s] [100%] [32m[1mLinking CXX executable cugo_ros2_control2[0m
+[41.673s] [100%] Built target cugo_ros2_control2
+[41.710s] Invoked command in '/home/aitec-jetson/cugo_ws/build/cugo_ros2_control2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aitec-jetson/cugo_ws/build/cugo_ros2_control2 -- -j8 -l8
+[41.734s] Invoking command in '/home/aitec-jetson/cugo_ws/build/cugo_ros2_control2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aitec-jetson/cugo_ws/build/cugo_ros2_control2
+[41.747s] -- Install configuration: ""
+[41.748s] -- Execute custom install script
+[41.749s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/lib/cugo_ros2_control2/cugo_ros2_control2
+[41.766s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/include//include/cugo_ros2_control2/cugo.hpp
+[41.780s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/include//include/cugo_ros2_control2/node.hpp
+[41.798s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/include//include/cugo_ros2_control2/serial.hpp
+[41.814s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2//launch/cugov3i_launch.py
+[41.830s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2//launch/cugov4_launch.py
+[41.848s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2//launch/unaju_launch.py
+[41.865s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2//urdf/my_cugo_robot.urdf.xacro
+[41.881s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2//urdf/parts/cugo_base.urdf.xacro
+[41.898s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2//urdf/parts/mid360.urdf.xacro
+[41.916s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/ament_index/resource_index/package_run_dependencies/cugo_ros2_control2
+[41.933s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/ament_index/resource_index/parent_prefix_path/cugo_ros2_control2
+[41.950s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/environment/ament_prefix_path.sh
+[41.966s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/environment/ament_prefix_path.dsv
+[41.981s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/environment/path.sh
+[41.999s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/environment/path.dsv
+[42.017s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/local_setup.bash
+[42.035s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/local_setup.sh
+[42.053s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/local_setup.zsh
+[42.069s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/local_setup.dsv
+[42.086s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/package.dsv
+[42.105s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/ament_index/resource_index/packages/cugo_ros2_control2
+[42.121s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/cmake/cugo_ros2_control2Config.cmake
+[42.137s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/cmake/cugo_ros2_control2Config-version.cmake
+[42.154s] -- Symlinking: /home/aitec-jetson/cugo_ws/install/cugo_ros2_control2/share/cugo_ros2_control2/package.xml
+[42.176s] Invoked command in '/home/aitec-jetson/cugo_ws/build/cugo_ros2_control2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aitec-jetson/cugo_ws/build/cugo_ros2_control2

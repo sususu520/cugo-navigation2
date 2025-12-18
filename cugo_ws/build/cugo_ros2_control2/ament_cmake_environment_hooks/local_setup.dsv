@@ -1,0 +1,2 @@
+source;share/cugo_ros2_control2/environment/ament_prefix_path.sh
+source;share/cugo_ros2_control2/environment/path.sh
